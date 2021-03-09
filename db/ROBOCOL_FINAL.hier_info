@@ -9931,9 +9931,9 @@ cuentas[26] => cuentas[26].IN1
 cuentas[27] => cuentas[27].IN1
 
 
-|ROBOCOL_FINAL|Prescaller:Prescaller5ms|contador:contadorSubida
+|ROBOCOL_FINAL|Prescaller:Prescaller5ms|contador:pos_edge_counter
 reset => always0.IN1
-clock => salida.CLK
+clock => out_reg.CLK
 clock => conteo[0].CLK
 clock => conteo[1].CLK
 clock => conteo[2].CLK
@@ -9990,7 +9990,7 @@ ciclos[24] => Equal0.IN3
 ciclos[25] => Equal0.IN2
 ciclos[26] => Equal0.IN1
 ciclos[27] => Equal0.IN0
-flag <= salida.DB_MAX_OUTPUT_PORT_TYPE
+flag <= out_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ROBOCOL_FINAL|RPM:RPM1
@@ -11761,7 +11761,7 @@ outPWM <= salidaActual.DB_MAX_OUTPUT_PORT_TYPE
 
 |ROBOCOL_FINAL|moduloPWM:PWM1|contador:contadorSubida
 reset => always0.IN1
-clock => salida.CLK
+clock => out_reg.CLK
 clock => conteo[0].CLK
 clock => conteo[1].CLK
 clock => conteo[2].CLK
@@ -11818,12 +11818,12 @@ ciclos[24] => Equal0.IN3
 ciclos[25] => Equal0.IN2
 ciclos[26] => Equal0.IN1
 ciclos[27] => Equal0.IN0
-flag <= salida.DB_MAX_OUTPUT_PORT_TYPE
+flag <= out_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ROBOCOL_FINAL|moduloPWM:PWM1|contador:contadorBajada
 reset => always0.IN1
-clock => salida.CLK
+clock => out_reg.CLK
 clock => conteo[0].CLK
 clock => conteo[1].CLK
 clock => conteo[2].CLK
@@ -11880,7 +11880,7 @@ ciclos[24] => Equal0.IN3
 ciclos[25] => Equal0.IN2
 ciclos[26] => Equal0.IN1
 ciclos[27] => Equal0.IN0
-flag <= salida.DB_MAX_OUTPUT_PORT_TYPE
+flag <= out_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ROBOCOL_FINAL|moduloPWM:PWM2
@@ -11911,7 +11911,7 @@ outPWM <= salidaActual.DB_MAX_OUTPUT_PORT_TYPE
 
 |ROBOCOL_FINAL|moduloPWM:PWM2|contador:contadorSubida
 reset => always0.IN1
-clock => salida.CLK
+clock => out_reg.CLK
 clock => conteo[0].CLK
 clock => conteo[1].CLK
 clock => conteo[2].CLK
@@ -11968,12 +11968,12 @@ ciclos[24] => Equal0.IN3
 ciclos[25] => Equal0.IN2
 ciclos[26] => Equal0.IN1
 ciclos[27] => Equal0.IN0
-flag <= salida.DB_MAX_OUTPUT_PORT_TYPE
+flag <= out_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ROBOCOL_FINAL|moduloPWM:PWM2|contador:contadorBajada
 reset => always0.IN1
-clock => salida.CLK
+clock => out_reg.CLK
 clock => conteo[0].CLK
 clock => conteo[1].CLK
 clock => conteo[2].CLK
@@ -12030,7 +12030,7 @@ ciclos[24] => Equal0.IN3
 ciclos[25] => Equal0.IN2
 ciclos[26] => Equal0.IN1
 ciclos[27] => Equal0.IN0
-flag <= salida.DB_MAX_OUTPUT_PORT_TYPE
+flag <= out_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ROBOCOL_FINAL|moduloPWM:PWM3
@@ -12061,7 +12061,7 @@ outPWM <= salidaActual.DB_MAX_OUTPUT_PORT_TYPE
 
 |ROBOCOL_FINAL|moduloPWM:PWM3|contador:contadorSubida
 reset => always0.IN1
-clock => salida.CLK
+clock => out_reg.CLK
 clock => conteo[0].CLK
 clock => conteo[1].CLK
 clock => conteo[2].CLK
@@ -12118,12 +12118,12 @@ ciclos[24] => Equal0.IN3
 ciclos[25] => Equal0.IN2
 ciclos[26] => Equal0.IN1
 ciclos[27] => Equal0.IN0
-flag <= salida.DB_MAX_OUTPUT_PORT_TYPE
+flag <= out_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ROBOCOL_FINAL|moduloPWM:PWM3|contador:contadorBajada
 reset => always0.IN1
-clock => salida.CLK
+clock => out_reg.CLK
 clock => conteo[0].CLK
 clock => conteo[1].CLK
 clock => conteo[2].CLK
@@ -12180,7 +12180,7 @@ ciclos[24] => Equal0.IN3
 ciclos[25] => Equal0.IN2
 ciclos[26] => Equal0.IN1
 ciclos[27] => Equal0.IN0
-flag <= salida.DB_MAX_OUTPUT_PORT_TYPE
+flag <= out_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ROBOCOL_FINAL|moduloPWM:PWM4
@@ -12211,7 +12211,7 @@ outPWM <= salidaActual.DB_MAX_OUTPUT_PORT_TYPE
 
 |ROBOCOL_FINAL|moduloPWM:PWM4|contador:contadorSubida
 reset => always0.IN1
-clock => salida.CLK
+clock => out_reg.CLK
 clock => conteo[0].CLK
 clock => conteo[1].CLK
 clock => conteo[2].CLK
@@ -12268,12 +12268,12 @@ ciclos[24] => Equal0.IN3
 ciclos[25] => Equal0.IN2
 ciclos[26] => Equal0.IN1
 ciclos[27] => Equal0.IN0
-flag <= salida.DB_MAX_OUTPUT_PORT_TYPE
+flag <= out_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ROBOCOL_FINAL|moduloPWM:PWM4|contador:contadorBajada
 reset => always0.IN1
-clock => salida.CLK
+clock => out_reg.CLK
 clock => conteo[0].CLK
 clock => conteo[1].CLK
 clock => conteo[2].CLK
@@ -12330,7 +12330,7 @@ ciclos[24] => Equal0.IN3
 ciclos[25] => Equal0.IN2
 ciclos[26] => Equal0.IN1
 ciclos[27] => Equal0.IN0
-flag <= salida.DB_MAX_OUTPUT_PORT_TYPE
+flag <= out_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ROBOCOL_FINAL|moduloPWM:PWM5
@@ -12361,7 +12361,7 @@ outPWM <= salidaActual.DB_MAX_OUTPUT_PORT_TYPE
 
 |ROBOCOL_FINAL|moduloPWM:PWM5|contador:contadorSubida
 reset => always0.IN1
-clock => salida.CLK
+clock => out_reg.CLK
 clock => conteo[0].CLK
 clock => conteo[1].CLK
 clock => conteo[2].CLK
@@ -12418,12 +12418,12 @@ ciclos[24] => Equal0.IN3
 ciclos[25] => Equal0.IN2
 ciclos[26] => Equal0.IN1
 ciclos[27] => Equal0.IN0
-flag <= salida.DB_MAX_OUTPUT_PORT_TYPE
+flag <= out_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ROBOCOL_FINAL|moduloPWM:PWM5|contador:contadorBajada
 reset => always0.IN1
-clock => salida.CLK
+clock => out_reg.CLK
 clock => conteo[0].CLK
 clock => conteo[1].CLK
 clock => conteo[2].CLK
@@ -12480,7 +12480,7 @@ ciclos[24] => Equal0.IN3
 ciclos[25] => Equal0.IN2
 ciclos[26] => Equal0.IN1
 ciclos[27] => Equal0.IN0
-flag <= salida.DB_MAX_OUTPUT_PORT_TYPE
+flag <= out_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ROBOCOL_FINAL|moduloPWM:PWM6
@@ -12511,7 +12511,7 @@ outPWM <= salidaActual.DB_MAX_OUTPUT_PORT_TYPE
 
 |ROBOCOL_FINAL|moduloPWM:PWM6|contador:contadorSubida
 reset => always0.IN1
-clock => salida.CLK
+clock => out_reg.CLK
 clock => conteo[0].CLK
 clock => conteo[1].CLK
 clock => conteo[2].CLK
@@ -12568,12 +12568,12 @@ ciclos[24] => Equal0.IN3
 ciclos[25] => Equal0.IN2
 ciclos[26] => Equal0.IN1
 ciclos[27] => Equal0.IN0
-flag <= salida.DB_MAX_OUTPUT_PORT_TYPE
+flag <= out_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ROBOCOL_FINAL|moduloPWM:PWM6|contador:contadorBajada
 reset => always0.IN1
-clock => salida.CLK
+clock => out_reg.CLK
 clock => conteo[0].CLK
 clock => conteo[1].CLK
 clock => conteo[2].CLK
@@ -12630,7 +12630,7 @@ ciclos[24] => Equal0.IN3
 ciclos[25] => Equal0.IN2
 ciclos[26] => Equal0.IN1
 ciclos[27] => Equal0.IN0
-flag <= salida.DB_MAX_OUTPUT_PORT_TYPE
+flag <= out_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ROBOCOL_FINAL|Detector_Mensajes_01:detectorEnable
@@ -13116,9 +13116,9 @@ cuentas[26] => cuentas[26].IN1
 cuentas[27] => cuentas[27].IN1
 
 
-|ROBOCOL_FINAL|ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida
+|ROBOCOL_FINAL|ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter
 reset => always0.IN1
-clock => salida.CLK
+clock => out_reg.CLK
 clock => conteo[0].CLK
 clock => conteo[1].CLK
 clock => conteo[2].CLK
@@ -13175,12 +13175,12 @@ ciclos[24] => Equal0.IN3
 ciclos[25] => Equal0.IN2
 ciclos[26] => Equal0.IN1
 ciclos[27] => Equal0.IN0
-flag <= salida.DB_MAX_OUTPUT_PORT_TYPE
+flag <= out_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ROBOCOL_FINAL|ADC_interface:ADC_MODULE|contador:contadorSubida
 reset => always0.IN1
-clock => salida.CLK
+clock => out_reg.CLK
 clock => conteo[0].CLK
 clock => conteo[1].CLK
 clock => conteo[2].CLK
@@ -13237,6 +13237,6 @@ ciclos[24] => Equal0.IN3
 ciclos[25] => Equal0.IN2
 ciclos[26] => Equal0.IN1
 ciclos[27] => Equal0.IN0
-flag <= salida.DB_MAX_OUTPUT_PORT_TYPE
+flag <= out_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 

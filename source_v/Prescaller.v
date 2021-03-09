@@ -1,30 +1,26 @@
-//Prescaller de clock
+// Clock prescaller
 module Prescaller(reset, clock, outCLK, cuentas);
 
-//INPUTS AND OUTPUTS
-input reset;//Reset
-input clock;//Clock
-input [27:0] cuentas;//Flancos a contar
-output outCLK;//Clock de salida
+// INPUTS AND OUTPUTS
+input				reset;				// Reset
+input				clock;				// Clock
+input [27:0]	cuentas;				// Edges to count
+output 			outCLK;				// Output clock
+// REGS
+reg 				salidaActual = 0;	// Output
+// WIRES
+wire 				flag;
+// ASSIGNS
+assign outCLK = salidaActual;		// Output assignation
 
-//REGS
-reg salidaActual=0;//Salida
-assign outCLK=salidaActual;//Asignacion de la salida
+// EXTERNAL MODULES
+contador pos_edge_counter(reset, clock, cuentas, flag); // Generic edges counter
 
-//WIRES
-wire flag;
-
-//MODULOS
-
-contador contadorSubida(reset, clock, cuentas, flag);//Contador de flancos generico
-
-
-//Logica secuencial MAQUINA DE ESTADOS
+// Sequential logic - STATE MACHINE
 always@(posedge clock)
 begin
-	if(flag)//Se oscila la salida cada flanco del contador
+	if(flag) // Oscillation every counter edge
 		salidaActual<=!salidaActual;
 end
-
 
 endmodule

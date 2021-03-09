@@ -1,5 +1,5 @@
 Assembler report for ROBOCOL_FINAL
-Tue Mar  9 11:36:12 2021
+Tue Mar  9 12:56:05 2021
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Mar  9 11:36:12 2021 ;
+; Assembler Status      ; Successful - Tue Mar  9 12:56:05 2021 ;
 ; Revision Name         ; ROBOCOL_FINAL                         ;
 ; Top-level Entity Name ; ROBOCOL_FINAL                         ;
 ; Family                ; Cyclone V                             ;
@@ -78,14 +78,14 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Tue Mar  9 11:36:03 2021
+    Info: Processing started: Tue Mar  9 12:55:54 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off ROBOCOL_FINAL -c ROBOCOL_FINAL
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 1107 megabytes
-    Info: Processing ended: Tue Mar  9 11:36:13 2021
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:09
+    Info: Peak virtual memory: 1113 megabytes
+    Info: Processing ended: Tue Mar  9 12:56:05 2021
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:11
 
 

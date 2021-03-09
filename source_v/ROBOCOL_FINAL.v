@@ -74,7 +74,7 @@ uart uartModule
 	    tx_busy,
 	    salida_mux, // RX connect (Mux output to select in)
 	    rx_ready, // rx_rdy (Indicates byte is ready to be read)
-	    rx_clear_Izquierda || rx_clear_Derecha || rx_clear_RGB || rx_clear_ENABLE, // Cleans byte ready flag
+	    rx_clear_Izquierda || rx_clear_Derecha || rx_clear_ENABLE, // Cleans byte ready flag
 	    rx_data
 );
 
@@ -162,12 +162,12 @@ assign LED = {EN6,EN5,EN4,EN3,EN2,EN1};
 wire [11:0] CH0, CH1, CH2, CH3, CH4, CH5, CH6, CH7, CH8, CH9, CH10, CH11, CH12;
 ADC_interface ADC_MODULE(FPGA_CLK1_50, ADC_CONVST, ADC_SCK, ADC_SDI, ADC_SDO, {GPIO_1GPIO[33], GPIO_1GPIO[31], GPIO_1GPIO[30]}, CH0, CH1, CH2, CH3, CH4, CH5, CH6, CH7, CH8, CH9, CH10, CH11, CH12);
 // Unused GPIO pins to 0
-assign GPIO_1GPIO[3] = 0;
-assign GPIO_1GPIO[4] = 0;
-assign GPIO_1GPIO[5] = 0;
-assign GPIO_1GPIO[6] = 0;
-assign GPIO_1GPIO[7] = 0;
-assign GPIO_1GPIO[8] = 0;
+assign GPIO_1GPIO[3]  = 0;
+assign GPIO_1GPIO[4]  = 0;
+assign GPIO_1GPIO[5]  = 0;
+assign GPIO_1GPIO[6]  = 0;
+assign GPIO_1GPIO[7]  = 0;
+assign GPIO_1GPIO[8]  = 0;
 assign GPIO_1GPIO[16] = 0;
 assign GPIO_1GPIO[17] = 0;
 assign GPIO_1GPIO[18] = 0;

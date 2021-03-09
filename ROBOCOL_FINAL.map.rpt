@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ROBOCOL_FINAL
-Tue Mar  9 11:27:00 2021
+Tue Mar  9 12:47:17 2021
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -190,7 +190,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Mar  9 11:27:00 2021       ;
+; Analysis & Synthesis Status     ; Successful - Tue Mar  9 12:47:16 2021       ;
 ; Quartus Prime Version           ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                   ; ROBOCOL_FINAL                               ;
 ; Top-level Entity Name           ; ROBOCOL_FINAL                               ;
@@ -310,7 +310,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.4%      ;
+;     Processor 2            ;   0.3%      ;
 +----------------------------+-------------+
 
 
@@ -397,7 +397,7 @@ https://fpgasoftware.intel.com/eula.
 ;    |ADC_interface:ADC_MODULE|                ; 101 (3)             ; 249 (171)                 ; 0                 ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|ADC_interface:ADC_MODULE                                                                                              ; ADC_interface          ; work         ;
 ;       |ControlSDI:ctSDI1|                    ; 27 (27)             ; 19 (19)                   ; 0                 ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|ADC_interface:ADC_MODULE|ControlSDI:ctSDI1                                                                            ; ControlSDI             ; work         ;
 ;       |Prescaller:P1|                        ; 36 (1)              ; 30 (1)                    ; 0                 ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|ADC_interface:ADC_MODULE|Prescaller:P1                                                                                ; Prescaller             ; work         ;
-;          |contador:contadorSubida|           ; 35 (35)             ; 29 (29)                   ; 0                 ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida                                                        ; contador               ; work         ;
+;          |contador:pos_edge_counter|         ; 35 (35)             ; 29 (29)                   ; 0                 ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter                                                      ; contador               ; work         ;
 ;       |contador:contadorSubida|              ; 35 (35)             ; 29 (29)                   ; 0                 ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|ADC_interface:ADC_MODULE|contador:contadorSubida                                                                      ; contador               ; work         ;
 ;    |CreadorMensajeCompleto:MensajeCompleto1| ; 711 (0)             ; 627 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1                                                                               ; CreadorMensajeCompleto ; work         ;
 ;       |A2Bin:A2Bin_rpm1|                     ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|A2Bin:A2Bin_rpm1                                                              ; A2Bin                  ; work         ;
@@ -532,7 +532,7 @@ https://fpgasoftware.intel.com/eula.
 ;                |alt_u_div_60f:divider|       ; 640 (640)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|PID_control:PID_control6|lpm_divide:Div1|lpm_divide_ipo:auto_generated|abs_divider_rbg:divider|alt_u_div_60f:divider  ; alt_u_div_60f          ; work         ;
 ;                |lpm_abs_8p9:my_abs_num|      ; 36 (36)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|PID_control:PID_control6|lpm_divide:Div1|lpm_divide_ipo:auto_generated|abs_divider_rbg:divider|lpm_abs_8p9:my_abs_num ; lpm_abs_8p9            ; work         ;
 ;    |Prescaller:Prescaller5ms|                ; 36 (1)              ; 30 (1)                    ; 0                 ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|Prescaller:Prescaller5ms                                                                                              ; Prescaller             ; work         ;
-;       |contador:contadorSubida|              ; 35 (35)             ; 29 (29)                   ; 0                 ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|Prescaller:Prescaller5ms|contador:contadorSubida                                                                      ; contador               ; work         ;
+;       |contador:pos_edge_counter|            ; 35 (35)             ; 29 (29)                   ; 0                 ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|Prescaller:Prescaller5ms|contador:pos_edge_counter                                                                    ; contador               ; work         ;
 ;    |RPM:RPM1|                                ; 988 (36)            ; 52 (52)                   ; 0                 ; 2          ; 0    ; 0            ; |ROBOCOL_FINAL|RPM:RPM1                                                                                                              ; RPM                    ; work         ;
 ;       |lpm_divide:Div0|                      ; 952 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|RPM:RPM1|lpm_divide:Div0                                                                                              ; lpm_divide             ; work         ;
 ;          |lpm_divide_0ro:auto_generated|     ; 952 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|RPM:RPM1|lpm_divide:Div0|lpm_divide_0ro:auto_generated                                                                ; lpm_divide_0ro         ; work         ;
@@ -1027,11 +1027,11 @@ Encoding Type:  One-Hot
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 ; Register name                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ; Reason for Removal                                                                                                                       ;
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
-; moduloPWM:PWM2|contador:contadorSubida|salida                                                                                                                                                                                                                                                                                                                                                                                                                                         ; Merged with moduloPWM:PWM1|contador:contadorSubida|salida                                                                                ;
-; moduloPWM:PWM3|contador:contadorSubida|salida                                                                                                                                                                                                                                                                                                                                                                                                                                         ; Merged with moduloPWM:PWM1|contador:contadorSubida|salida                                                                                ;
-; moduloPWM:PWM4|contador:contadorSubida|salida                                                                                                                                                                                                                                                                                                                                                                                                                                         ; Merged with moduloPWM:PWM1|contador:contadorSubida|salida                                                                                ;
-; moduloPWM:PWM5|contador:contadorSubida|salida                                                                                                                                                                                                                                                                                                                                                                                                                                         ; Merged with moduloPWM:PWM1|contador:contadorSubida|salida                                                                                ;
-; moduloPWM:PWM6|contador:contadorSubida|salida                                                                                                                                                                                                                                                                                                                                                                                                                                         ; Merged with moduloPWM:PWM1|contador:contadorSubida|salida                                                                                ;
+; moduloPWM:PWM2|contador:contadorSubida|out_reg                                                                                                                                                                                                                                                                                                                                                                                                                                        ; Merged with moduloPWM:PWM1|contador:contadorSubida|out_reg                                                                               ;
+; moduloPWM:PWM3|contador:contadorSubida|out_reg                                                                                                                                                                                                                                                                                                                                                                                                                                        ; Merged with moduloPWM:PWM1|contador:contadorSubida|out_reg                                                                               ;
+; moduloPWM:PWM4|contador:contadorSubida|out_reg                                                                                                                                                                                                                                                                                                                                                                                                                                        ; Merged with moduloPWM:PWM1|contador:contadorSubida|out_reg                                                                               ;
+; moduloPWM:PWM5|contador:contadorSubida|out_reg                                                                                                                                                                                                                                                                                                                                                                                                                                        ; Merged with moduloPWM:PWM1|contador:contadorSubida|out_reg                                                                               ;
+; moduloPWM:PWM6|contador:contadorSubida|out_reg                                                                                                                                                                                                                                                                                                                                                                                                                                        ; Merged with moduloPWM:PWM1|contador:contadorSubida|out_reg                                                                               ;
 ; moduloPWM:PWM2|contador:contadorSubida|conteo[27]                                                                                                                                                                                                                                                                                                                                                                                                                                     ; Merged with moduloPWM:PWM1|contador:contadorSubida|conteo[27]                                                                            ;
 ; moduloPWM:PWM3|contador:contadorSubida|conteo[27]                                                                                                                                                                                                                                                                                                                                                                                                                                     ; Merged with moduloPWM:PWM1|contador:contadorSubida|conteo[27]                                                                            ;
 ; moduloPWM:PWM4|contador:contadorSubida|conteo[27]                                                                                                                                                                                                                                                                                                                                                                                                                                     ; Merged with moduloPWM:PWM1|contador:contadorSubida|conteo[27]                                                                            ;
@@ -3616,7 +3616,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:23     ;
+; Top            ; 00:00:26     ;
 +----------------+--------------+
 
 
@@ -3626,7 +3626,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Tue Mar  9 11:26:22 2021
+    Info: Processing started: Tue Mar  9 12:46:31 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ROBOCOL_FINAL -c ROBOCOL_FINAL
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -3647,7 +3647,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file source_
     Info (12023): Found entity 1: ROBOCOL_FINAL File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ROBOCOL_FINAL.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file source_v/receiver.v
     Info (12023): Found entity 1: receiver File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/receiver.v Line: 5
-Warning (12019): Can't analyze file -- file source_v/Prescaller_stepper.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file source_v/Prescaller.v
     Info (12023): Found entity 1: Prescaller File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/Prescaller.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file source_v/PID_control.v
@@ -3661,12 +3660,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file source_
     Info (12023): Found entity 1: moduloPWM File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/moduloPWM.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file source_v/moduloEnableMotores.v
     Info (12023): Found entity 1: moduloEnableMotores File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/moduloEnableMotores.v Line: 1
-Warning (12019): Can't analyze file -- file source_v/ModuloControlRGB.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file source_v/Encoder.v
     Info (12023): Found entity 1: Encoder File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/Encoder.v Line: 3
-Info (12021): Found 1 design units, including 1 entities, in source file source_v/dimmer.v
-    Info (12023): Found entity 1: dimmer File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/dimmer.v Line: 2
-Warning (12019): Can't analyze file -- file source_v/Detector_Mensajes_stepper.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file source_v/Detector_Mensajes_10.v
     Info (12023): Found entity 1: Detector_Mensajes_10 File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/Detector_Mensajes_10.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file source_v/Detector_Mensajes_01.v
@@ -3680,12 +3675,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file source_
 Info (12021): Found 1 design units, including 1 entities, in source file source_v/creacion_mensaje.v
     Info (12023): Found entity 1: creacion_mensaje File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/creacion_mensaje.v Line: 1
 Info (12021): Found 0 design units, including 0 entities, in source file source_v/ConvBCD.v
-Info (12021): Found 1 design units, including 1 entities, in source file source_v/controlStepper.v
-    Info (12023): Found entity 1: controlStepper File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/controlStepper.v Line: 7
 Info (12021): Found 1 design units, including 1 entities, in source file source_v/ControlSDI.v
     Info (12023): Found entity 1: ControlSDI File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ControlSDI.v Line: 1
-Warning (12019): Can't analyze file -- file source_v/controladorPosicion.v is missing
-Warning (12019): Can't analyze file -- file source_v/control_servo.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file source_v/contador.v
     Info (12023): Found entity 1: contador File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/contador.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file source_v/CompMensaje.v
@@ -3698,9 +3689,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file source_
     Info (12023): Found entity 1: ADC_interface File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ADC_interface.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file source_v/A2Bin.v
     Info (12023): Found entity 1: A2Bin File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/A2Bin.v Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at ROBOCOL_FINAL.v(77): created implicit net for "rx_clear_RGB" File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ROBOCOL_FINAL.v Line: 77
 Info (12127): Elaborating entity "ROBOCOL_FINAL" for the top level hierarchy
-Warning (10030): Net "rx_clear_RGB" at ROBOCOL_FINAL.v(77) has no driver or initial value, using a default initial value '0' File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ROBOCOL_FINAL.v Line: 77
 Info (12128): Elaborating entity "mux" for hierarchy "mux:mux1" File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ROBOCOL_FINAL.v Line: 32
 Info (12128): Elaborating entity "CreadorMensajeCompleto" for hierarchy "CreadorMensajeCompleto:MensajeCompleto1" File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ROBOCOL_FINAL.v Line: 61
 Info (12128): Elaborating entity "creacion_mensaje" for hierarchy "CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_corriente1" File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/CreadorMensajeCompleto.v Line: 92
@@ -3725,7 +3714,7 @@ Warning (10230): Verilog HDL assignment warning at Detector_Mensajes.v(74): trun
 Info (12128): Elaborating entity "DeBounce1" for hierarchy "DeBounce1:DB1_MA" File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ROBOCOL_FINAL.v Line: 90
 Info (12128): Elaborating entity "Encoder" for hierarchy "Encoder:Encoder1" File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ROBOCOL_FINAL.v Line: 117
 Info (12128): Elaborating entity "Prescaller" for hierarchy "Prescaller:Prescaller5ms" File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ROBOCOL_FINAL.v Line: 124
-Info (12128): Elaborating entity "contador" for hierarchy "Prescaller:Prescaller5ms|contador:contadorSubida" File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/Prescaller.v Line: 19
+Info (12128): Elaborating entity "contador" for hierarchy "Prescaller:Prescaller5ms|contador:pos_edge_counter" File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/Prescaller.v Line: 17
 Info (12128): Elaborating entity "RPM" for hierarchy "RPM:RPM1" File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ROBOCOL_FINAL.v Line: 126
 Warning (10230): Verilog HDL assignment warning at RPM.v(17): truncated value with size 36 to match size of target (16) File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/RPM.v Line: 17
 Info (12128): Elaborating entity "PID_control" for hierarchy "PID_control:PID_control1" File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ROBOCOL_FINAL.v Line: 133
@@ -3949,11 +3938,11 @@ Info (21057): Implemented 19012 device resources after synthesis - the final res
     Info (21060): Implemented 89 bidirectional pins
     Info (21061): Implemented 18884 logic cells
     Info (21062): Implemented 18 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 164 warnings
-    Info: Peak virtual memory: 1171 megabytes
-    Info: Processing ended: Tue Mar  9 11:27:00 2021
-    Info: Elapsed time: 00:00:38
-    Info: Total CPU time (on all processors): 00:00:51
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 157 warnings
+    Info: Peak virtual memory: 1157 megabytes
+    Info: Processing ended: Tue Mar  9 12:47:17 2021
+    Info: Elapsed time: 00:00:46
+    Info: Total CPU time (on all processors): 00:01:04
 
 
 +------------------------------------------+

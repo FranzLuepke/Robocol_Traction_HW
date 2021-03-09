@@ -14,7 +14,7 @@ Type  : Slow 1100mV 85C Model Setup 'ADC_interface:ADC_MODULE|Prescaller:P1|sali
 Slack : -2.014
 TNS   : -41.837
 
-Type  : Slow 1100mV 85C Model Setup 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Type  : Slow 1100mV 85C Model Setup 'ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg'
 Slack : -1.881
 TNS   : -6.866
 
@@ -30,7 +30,7 @@ Type  : Slow 1100mV 85C Model Hold 'ADC_interface:ADC_MODULE|Prescaller:P1|salid
 Slack : 0.632
 TNS   : 0.000
 
-Type  : Slow 1100mV 85C Model Hold 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Type  : Slow 1100mV 85C Model Hold 'ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg'
 Slack : 0.700
 TNS   : 0.000
 
@@ -46,7 +46,7 @@ Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|Pres
 Slack : -0.394
 TNS   : -22.323
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg'
 Slack : -0.394
 TNS   : -2.370
 
@@ -62,7 +62,7 @@ Type  : Slow 1100mV 0C Model Setup 'ADC_interface:ADC_MODULE|Prescaller:P1|salid
 Slack : -1.982
 TNS   : -40.396
 
-Type  : Slow 1100mV 0C Model Setup 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Type  : Slow 1100mV 0C Model Setup 'ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg'
 Slack : -1.832
 TNS   : -6.732
 
@@ -78,7 +78,7 @@ Type  : Slow 1100mV 0C Model Hold 'ADC_interface:ADC_MODULE|Prescaller:P1|salida
 Slack : 0.633
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Type  : Slow 1100mV 0C Model Hold 'ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg'
 Slack : 0.756
 TNS   : 0.000
 
@@ -94,7 +94,7 @@ Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|Presc
 Slack : -0.394
 TNS   : -22.286
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg'
 Slack : -0.394
 TNS   : -2.200
 
@@ -110,7 +110,7 @@ Type  : Fast 1100mV 85C Model Setup 'ADC_interface:ADC_MODULE|Prescaller:P1|sali
 Slack : -1.187
 TNS   : -18.021
 
-Type  : Fast 1100mV 85C Model Setup 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Type  : Fast 1100mV 85C Model Setup 'ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg'
 Slack : -0.776
 TNS   : -2.683
 
@@ -126,7 +126,7 @@ Type  : Fast 1100mV 85C Model Hold 'ADC_interface:ADC_MODULE|Prescaller:P1|salid
 Slack : 0.221
 TNS   : 0.000
 
-Type  : Fast 1100mV 85C Model Hold 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Type  : Fast 1100mV 85C Model Hold 'ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg'
 Slack : 0.380
 TNS   : 0.000
 
@@ -142,7 +142,7 @@ Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|Pres
 Slack : -0.101
 TNS   : -1.641
 
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg'
 Slack : 0.039
 TNS   : 0.000
 
@@ -158,7 +158,7 @@ Type  : Fast 1100mV 0C Model Setup 'ADC_interface:ADC_MODULE|Prescaller:P1|salid
 Slack : -1.058
 TNS   : -14.689
 
-Type  : Fast 1100mV 0C Model Setup 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Type  : Fast 1100mV 0C Model Setup 'ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg'
 Slack : -0.666
 TNS   : -2.296
 
@@ -174,7 +174,7 @@ Type  : Fast 1100mV 0C Model Hold 'ADC_interface:ADC_MODULE|Prescaller:P1|salida
 Slack : 0.205
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Hold 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Type  : Fast 1100mV 0C Model Hold 'ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg'
 Slack : 0.354
 TNS   : 0.000
 
@@ -190,7 +190,7 @@ Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|Presc
 Slack : -0.051
 TNS   : -0.715
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg'
 Slack : 0.037
 TNS   : 0.000
 

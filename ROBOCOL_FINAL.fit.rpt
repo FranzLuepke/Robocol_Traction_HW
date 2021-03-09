@@ -1,5 +1,5 @@
 Fitter report for ROBOCOL_FINAL
-Tue Mar  9 11:35:57 2021
+Tue Mar  9 12:55:49 2021
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -67,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Tue Mar  9 11:35:57 2021       ;
+; Fitter Status                   ; Successful - Tue Mar  9 12:55:48 2021       ;
 ; Quartus Prime Version           ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                   ; ROBOCOL_FINAL                               ;
 ; Top-level Entity Name           ; ROBOCOL_FINAL                               ;
@@ -162,7 +162,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  24.9%      ;
+;     Processor 2            ;  25.3%      ;
 +----------------------------+-------------+
 
 
@@ -274,12 +274,12 @@ https://fpgasoftware.intel.com/eula.
 ; Detector_Mensajes:detectorIzquierda|SENTIDO_RX[1]~_Duplicate_2                                                      ; Packed Register ; Register Packing                                  ; Timing optimization        ; Q         ;                ; Mult2~8                                                                                                                       ; AY               ;                       ;
 ; ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|estado_actual_SDI.ESTADO_1                                               ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|estado_actual_SDI.ESTADO_1~DUPLICATE                                               ;                  ;                       ;
 ; ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|estado_actual_SDI.ESTADO_3                                               ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|estado_actual_SDI.ESTADO_3~DUPLICATE                                               ;                  ;                       ;
-; ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida|conteo[0]                                            ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida|conteo[0]~DUPLICATE                                            ;                  ;                       ;
-; ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida|conteo[1]                                            ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida|conteo[1]~DUPLICATE                                            ;                  ;                       ;
-; ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida|conteo[17]                                           ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida|conteo[17]~DUPLICATE                                           ;                  ;                       ;
-; ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida|conteo[18]                                           ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida|conteo[18]~DUPLICATE                                           ;                  ;                       ;
-; ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida|conteo[21]                                           ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida|conteo[21]~DUPLICATE                                           ;                  ;                       ;
-; ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida|conteo[26]                                           ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida|conteo[26]~DUPLICATE                                           ;                  ;                       ;
+; ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter|conteo[0]                                          ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter|conteo[0]~DUPLICATE                                          ;                  ;                       ;
+; ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter|conteo[1]                                          ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter|conteo[1]~DUPLICATE                                          ;                  ;                       ;
+; ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter|conteo[17]                                         ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter|conteo[17]~DUPLICATE                                         ;                  ;                       ;
+; ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter|conteo[18]                                         ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter|conteo[18]~DUPLICATE                                         ;                  ;                       ;
+; ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter|conteo[21]                                         ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter|conteo[21]~DUPLICATE                                         ;                  ;                       ;
+; ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter|conteo[26]                                         ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter|conteo[26]~DUPLICATE                                         ;                  ;                       ;
 ; ADC_interface:ADC_MODULE|contador:contadorSubida|conteo[4]                                                          ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|contador:contadorSubida|conteo[4]~DUPLICATE                                                          ;                  ;                       ;
 ; ADC_interface:ADC_MODULE|contador:contadorSubida|conteo[5]                                                          ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|contador:contadorSubida|conteo[5]~DUPLICATE                                                          ;                  ;                       ;
 ; ADC_interface:ADC_MODULE|contador:contadorSubida|conteo[21]                                                         ; Duplicated      ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; ADC_interface:ADC_MODULE|contador:contadorSubida|conteo[21]~DUPLICATE                                                         ;                  ;                       ;
@@ -1789,7 +1789,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ;    |ADC_interface:ADC_MODULE|                ; 57.0 (2.5)           ; 141.3 (80.8)                     ; 85.3 (79.3)                                       ; 1.0 (1.0)                        ; 0.0 (0.0)            ; 101 (3)             ; 267 (177)                 ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|ADC_interface:ADC_MODULE                                                                                              ; ADC_interface          ; work         ;
 ;       |ControlSDI:ctSDI1|                    ; 13.5 (13.5)          ; 18.5 (18.5)                      ; 5.0 (5.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 27 (27)             ; 21 (21)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|ADC_interface:ADC_MODULE|ControlSDI:ctSDI1                                                                            ; ControlSDI             ; work         ;
 ;       |Prescaller:P1|                        ; 20.5 (0.7)           ; 21.5 (1.0)                       ; 1.0 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 36 (1)              ; 36 (1)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|ADC_interface:ADC_MODULE|Prescaller:P1                                                                                ; Prescaller             ; work         ;
-;          |contador:contadorSubida|           ; 19.8 (19.8)          ; 20.5 (20.5)                      ; 0.7 (0.7)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 35 (35)             ; 35 (35)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida                                                        ; contador               ; work         ;
+;          |contador:pos_edge_counter|         ; 19.8 (19.8)          ; 20.5 (20.5)                      ; 0.7 (0.7)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 35 (35)             ; 35 (35)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter                                                      ; contador               ; work         ;
 ;       |contador:contadorSubida|              ; 20.5 (20.5)          ; 20.5 (20.5)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 35 (35)             ; 33 (33)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|ADC_interface:ADC_MODULE|contador:contadorSubida                                                                      ; contador               ; work         ;
 ;    |CreadorMensajeCompleto:MensajeCompleto1| ; 523.5 (0.0)          ; 556.4 (0.0)                      ; 38.9 (0.0)                                        ; 6.0 (0.0)                        ; 0.0 (0.0)            ; 711 (0)             ; 754 (0)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1                                                                               ; CreadorMensajeCompleto ; work         ;
 ;       |A2Bin:A2Bin_rpm1|                     ; 4.2 (4.2)            ; 4.2 (4.2)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 16 (16)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|A2Bin:A2Bin_rpm1                                                              ; A2Bin                  ; work         ;
@@ -1924,7 +1924,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ;                |alt_u_div_60f:divider|       ; 321.0 (321.0)        ; 322.2 (322.2)                    ; 1.2 (1.2)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 640 (640)           ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|PID_control:PID_control6|lpm_divide:Div1|lpm_divide_ipo:auto_generated|abs_divider_rbg:divider|alt_u_div_60f:divider  ; alt_u_div_60f          ; work         ;
 ;                |lpm_abs_8p9:my_abs_num|      ; 18.0 (18.0)          ; 18.0 (18.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 36 (36)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|PID_control:PID_control6|lpm_divide:Div1|lpm_divide_ipo:auto_generated|abs_divider_rbg:divider|lpm_abs_8p9:my_abs_num ; lpm_abs_8p9            ; work         ;
 ;    |Prescaller:Prescaller5ms|                ; 20.5 (0.7)           ; 21.3 (0.8)                       ; 0.8 (0.2)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 36 (1)              ; 30 (1)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|Prescaller:Prescaller5ms                                                                                              ; Prescaller             ; work         ;
-;       |contador:contadorSubida|              ; 19.8 (19.8)          ; 20.5 (20.5)                      ; 0.7 (0.7)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 35 (35)             ; 29 (29)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|Prescaller:Prescaller5ms|contador:contadorSubida                                                                      ; contador               ; work         ;
+;       |contador:pos_edge_counter|            ; 19.8 (19.8)          ; 20.5 (20.5)                      ; 0.7 (0.7)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 35 (35)             ; 29 (29)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|Prescaller:Prescaller5ms|contador:pos_edge_counter                                                                    ; contador               ; work         ;
 ;    |RPM:RPM1|                                ; 507.8 (22.5)         ; 498.0 (29.3)                     ; 4.2 (7.3)                                         ; 14.0 (0.5)                       ; 0.0 (0.0)            ; 988 (36)            ; 52 (52)                   ; 0 (0)         ; 0                 ; 0     ; 2          ; 0    ; 0            ; |ROBOCOL_FINAL|RPM:RPM1                                                                                                              ; RPM                    ; work         ;
 ;       |lpm_divide:Div0|                      ; 482.2 (0.0)          ; 468.7 (0.0)                      ; 0.0 (0.0)                                         ; 13.5 (0.0)                       ; 0.0 (0.0)            ; 952 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|RPM:RPM1|lpm_divide:Div0                                                                                              ; lpm_divide             ; work         ;
 ;          |lpm_divide_0ro:auto_generated|     ; 482.2 (0.0)          ; 468.7 (0.0)                      ; 0.0 (0.0)                                         ; 13.5 (0.0)                       ; 0.0 (0.0)            ; 952 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |ROBOCOL_FINAL|RPM:RPM1|lpm_divide:Div0|lpm_divide_0ro:auto_generated                                                                ; lpm_divide_0ro         ; work         ;
@@ -2105,255 +2105,255 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
 
 
-+-------------------------------------------------------------------------------------------------+
-; Pad To Core Delay Chain Fanout                                                                  ;
-+-------------------------------------------------------------------+-------------------+---------+
-; Source Pin / Fanout                                               ; Pad To Core Index ; Setting ;
-+-------------------------------------------------------------------+-------------------+---------+
-; FPGA_CLK2_50                                                      ;                   ;         ;
-; FPGA_CLK3_50                                                      ;                   ;         ;
-; KEY[1]                                                            ;                   ;         ;
-; SW[0]                                                             ;                   ;         ;
-; SW[1]                                                             ;                   ;         ;
-; SW[2]                                                             ;                   ;         ;
-; SW[3]                                                             ;                   ;         ;
-; ARDUINO_IO[0]                                                     ;                   ;         ;
-; ARDUINO_IO[1]                                                     ;                   ;         ;
-; ARDUINO_IO[2]                                                     ;                   ;         ;
-; ARDUINO_IO[3]                                                     ;                   ;         ;
-; ARDUINO_IO[4]                                                     ;                   ;         ;
-; ARDUINO_IO[5]                                                     ;                   ;         ;
-; ARDUINO_IO[6]                                                     ;                   ;         ;
-; ARDUINO_IO[7]                                                     ;                   ;         ;
-; ARDUINO_IO[8]                                                     ;                   ;         ;
-; ARDUINO_IO[9]                                                     ;                   ;         ;
-; ARDUINO_IO[10]                                                    ;                   ;         ;
-; ARDUINO_IO[11]                                                    ;                   ;         ;
-; ARDUINO_IO[12]                                                    ;                   ;         ;
-; ARDUINO_IO[13]                                                    ;                   ;         ;
-; ARDUINO_IO[14]                                                    ;                   ;         ;
-; ARDUINO_IO[15]                                                    ;                   ;         ;
-; ARDUINO_RESET_N                                                   ;                   ;         ;
-; GPIO_1GPIO[9]                                                     ;                   ;         ;
-; GPIO_1GPIO[10]                                                    ;                   ;         ;
-; GPIO_1GPIO[11]                                                    ;                   ;         ;
-; GPIO_1GPIO[12]                                                    ;                   ;         ;
-; GPIO_1GPIO[13]                                                    ;                   ;         ;
-; GPIO_1GPIO[14]                                                    ;                   ;         ;
-; GPIO_1GPIO[15]                                                    ;                   ;         ;
-; GPIO_1GPIO[34]                                                    ;                   ;         ;
-; GPIO_1GPIO[35]                                                    ;                   ;         ;
-; GPIO_0GPIO[0]                                                     ;                   ;         ;
-;      - DeBounce1:DB3_MA|DFF1                                      ; 1                 ; 0       ;
-; GPIO_0GPIO[1]                                                     ;                   ;         ;
-;      - DeBounce1:DB3_MB|DFF1                                      ; 0                 ; 0       ;
-; GPIO_0GPIO[2]                                                     ;                   ;         ;
-;      - DeBounce1:DB2_MA|DFF1                                      ; 1                 ; 0       ;
-; GPIO_0GPIO[3]                                                     ;                   ;         ;
-;      - DeBounce1:DB2_MB|DFF1                                      ; 0                 ; 0       ;
-; GPIO_0GPIO[4]                                                     ;                   ;         ;
-;      - DeBounce1:DB1_MA|DFF1                                      ; 0                 ; 0       ;
-; GPIO_0GPIO[5]                                                     ;                   ;         ;
-;      - DeBounce1:DB1_MB|DFF1                                      ; 0                 ; 0       ;
-; GPIO_0GPIO[6]                                                     ;                   ;         ;
-;      - DeBounce1:DB4_MA|DFF1                                      ; 0                 ; 0       ;
-; GPIO_0GPIO[7]                                                     ;                   ;         ;
-;      - DeBounce1:DB4_MB|DFF1                                      ; 1                 ; 0       ;
-; GPIO_0GPIO[8]                                                     ;                   ;         ;
-;      - DeBounce1:DB5_MA|DFF1                                      ; 0                 ; 0       ;
-; GPIO_0GPIO[9]                                                     ;                   ;         ;
-;      - DeBounce1:DB5_MB|DFF1                                      ; 1                 ; 0       ;
-; GPIO_0GPIO[10]                                                    ;                   ;         ;
-;      - DeBounce1:DB6_MA|DFF1                                      ; 1                 ; 0       ;
-; GPIO_0GPIO[11]                                                    ;                   ;         ;
-;      - DeBounce1:DB6_MB|DFF1                                      ; 0                 ; 0       ;
-; GPIO_0GPIO[12]                                                    ;                   ;         ;
-; GPIO_0GPIO[13]                                                    ;                   ;         ;
-; GPIO_0GPIO[14]                                                    ;                   ;         ;
-; GPIO_0GPIO[15]                                                    ;                   ;         ;
-; GPIO_0GPIO[16]                                                    ;                   ;         ;
-; GPIO_0GPIO[17]                                                    ;                   ;         ;
-; GPIO_0GPIO[18]                                                    ;                   ;         ;
-; GPIO_0GPIO[19]                                                    ;                   ;         ;
-; GPIO_0GPIO[20]                                                    ;                   ;         ;
-; GPIO_0GPIO[21]                                                    ;                   ;         ;
-; GPIO_0GPIO[22]                                                    ;                   ;         ;
-; GPIO_0GPIO[23]                                                    ;                   ;         ;
-; GPIO_0GPIO[24]                                                    ;                   ;         ;
-; GPIO_0GPIO[25]                                                    ;                   ;         ;
-; GPIO_0GPIO[26]                                                    ;                   ;         ;
-; GPIO_0GPIO[27]                                                    ;                   ;         ;
-; GPIO_0GPIO[28]                                                    ;                   ;         ;
-; GPIO_0GPIO[29]                                                    ;                   ;         ;
-; GPIO_0GPIO[30]                                                    ;                   ;         ;
-; GPIO_0GPIO[31]                                                    ;                   ;         ;
-; GPIO_0GPIO[32]                                                    ;                   ;         ;
-; GPIO_0GPIO[33]                                                    ;                   ;         ;
-; GPIO_0GPIO[34]                                                    ;                   ;         ;
-; GPIO_0GPIO[35]                                                    ;                   ;         ;
-; GPIO_1GPIO[0]                                                     ;                   ;         ;
-;      - mux:mux1|out~0                                             ; 1                 ; 0       ;
-;      - uart:uartModule|receiver:uart_rx|always0~1                 ; 1                 ; 0       ;
-; GPIO_1GPIO[1]                                                     ;                   ;         ;
-;      - mux:mux1|out~0                                             ; 0                 ; 0       ;
-;      - uart:uartModule|receiver:uart_rx|always0~1                 ; 0                 ; 0       ;
-; GPIO_1GPIO[2]                                                     ;                   ;         ;
-;      - mux:mux1|out~0                                             ; 0                 ; 0       ;
-;      - uart:uartModule|receiver:uart_rx|always0~1                 ; 0                 ; 0       ;
-; GPIO_1GPIO[3]                                                     ;                   ;         ;
-; GPIO_1GPIO[4]                                                     ;                   ;         ;
-; GPIO_1GPIO[5]                                                     ;                   ;         ;
-; GPIO_1GPIO[6]                                                     ;                   ;         ;
-; GPIO_1GPIO[7]                                                     ;                   ;         ;
-; GPIO_1GPIO[8]                                                     ;                   ;         ;
-; GPIO_1GPIO[16]                                                    ;                   ;         ;
-; GPIO_1GPIO[17]                                                    ;                   ;         ;
-; GPIO_1GPIO[18]                                                    ;                   ;         ;
-; GPIO_1GPIO[19]                                                    ;                   ;         ;
-; GPIO_1GPIO[20]                                                    ;                   ;         ;
-; GPIO_1GPIO[21]                                                    ;                   ;         ;
-; GPIO_1GPIO[22]                                                    ;                   ;         ;
-; GPIO_1GPIO[23]                                                    ;                   ;         ;
-; GPIO_1GPIO[24]                                                    ;                   ;         ;
-; GPIO_1GPIO[25]                                                    ;                   ;         ;
-; GPIO_1GPIO[26]                                                    ;                   ;         ;
-; GPIO_1GPIO[27]                                                    ;                   ;         ;
-; GPIO_1GPIO[28]                                                    ;                   ;         ;
-; GPIO_1GPIO[29]                                                    ;                   ;         ;
-; GPIO_1GPIO[30]                                                    ;                   ;         ;
-; GPIO_1GPIO[31]                                                    ;                   ;         ;
-; GPIO_1GPIO[32]                                                    ;                   ;         ;
-; GPIO_1GPIO[33]                                                    ;                   ;         ;
-; FPGA_CLK1_50                                                      ;                   ;         ;
-;      - ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual        ; 1                 ; 0       ;
-;      - ADC_interface:ADC_MODULE|contador:contadorSubida|salida    ; 1                 ; 0       ;
-;      - Prescaller:Prescaller5ms|salidaActual                      ; 1                 ; 0       ;
-; KEY[0]                                                            ;                   ;         ;
-;      - DeBounce1:DB6_MA|q_reg[4]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MA|q_reg[3]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MA|q_reg[4]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MA|q_reg[5]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MA|q_reg[6]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MA|DFF1                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MB|q_reg[0]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MB|q_reg[1]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MB|q_reg[2]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MB|q_reg[3]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MB|q_reg[4]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MB|q_reg[5]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MB|q_reg[6]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MB|DFF1                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MA|q_reg[0]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MA|q_reg[1]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MA|q_reg[2]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MA|q_reg[3]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MB|q_reg[6]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MA|q_reg[5]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MB|q_reg[1]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MA|q_reg[3]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MA|q_reg[2]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MA|q_reg[1]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MA|q_reg[0]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MB|DFF1                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MB|q_reg[6]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MB|q_reg[5]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MB|q_reg[4]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MB|q_reg[0]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MA|q_reg[2]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MB|q_reg[2]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MB|q_reg[3]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MB|q_reg[4]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MB|q_reg[5]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MB|q_reg[6]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MB|DFF1                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MA|q_reg[0]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MA|q_reg[1]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MB|DFF1                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MA|q_reg[1]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MA|q_reg[2]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MA|q_reg[3]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MA|q_reg[4]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MA|q_reg[5]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MA|q_reg[6]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MB|q_reg[0]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MB|q_reg[1]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MB|q_reg[2]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MB|q_reg[3]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MB|q_reg[4]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MB|q_reg[5]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MB|q_reg[6]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MA|q_reg[0]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MA|q_reg[0]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MA|q_reg[1]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MA|q_reg[2]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MA|q_reg[3]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MA|q_reg[4]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MA|q_reg[5]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MA|q_reg[6]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MA|DFF1                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MB|q_reg[0]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MB|q_reg[1]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MB|q_reg[2]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MB|q_reg[3]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MA|q_reg[3]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MA|DFF1                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MB|q_reg[0]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MB|q_reg[1]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MB|q_reg[2]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MB|q_reg[3]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MB|q_reg[4]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MB|q_reg[5]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MA|DFF1                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MB|DFF1                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MA|q_reg[0]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MA|q_reg[1]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MA|q_reg[2]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MA|q_reg[6]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MA|q_reg[4]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MA|q_reg[5]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MA|q_reg[6]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MA|DFF1                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MB|q_reg[0]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MB|q_reg[1]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MB|q_reg[2]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MB|q_reg[3]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MB|q_reg[4]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MB|q_reg[5]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MB|q_reg[6]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MB|DFF1                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MA|q_reg[7]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MB|DFF2                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MA|q_reg[7]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MA|DFF2                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MB|q_reg[7]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MB|DFF2                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MA|q_reg[7]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB2_MA|DFF2                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MB|q_reg[7]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MB|DFF2                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MA|q_reg[7]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MA|DFF2                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB3_MB|q_reg[7]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MA|DFF2                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MA|q_reg[7]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MA|q_reg[5]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MB|DFF2                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MB|q_reg[7]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MA|DFF2                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MA|q_reg[7]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MB|DFF2                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB6_MB|q_reg[7]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB5_MA|DFF2                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MB|q_reg[7]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MA|DFF1                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB4_MB|DFF2                                      ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MA|q_reg[4]                                  ; 0                 ; 0       ;
-;      - DeBounce1:DB1_MA|q_reg[6]                                  ; 0                 ; 0       ;
-;      - moduloPWM:PWM1|contador:contadorSubida|always0~0           ; 0                 ; 0       ;
-;      - Prescaller:Prescaller5ms|contador:contadorSubida|always0~0 ; 0                 ; 0       ;
-; ADC_SDO                                                           ;                   ;         ;
-;      - ADC_interface:ADC_MODULE|datosRecibidos[0]~feeder          ; 1                 ; 0       ;
-+-------------------------------------------------------------------+-------------------+---------+
++---------------------------------------------------------------------------------------------------+
+; Pad To Core Delay Chain Fanout                                                                    ;
++---------------------------------------------------------------------+-------------------+---------+
+; Source Pin / Fanout                                                 ; Pad To Core Index ; Setting ;
++---------------------------------------------------------------------+-------------------+---------+
+; FPGA_CLK2_50                                                        ;                   ;         ;
+; FPGA_CLK3_50                                                        ;                   ;         ;
+; KEY[1]                                                              ;                   ;         ;
+; SW[0]                                                               ;                   ;         ;
+; SW[1]                                                               ;                   ;         ;
+; SW[2]                                                               ;                   ;         ;
+; SW[3]                                                               ;                   ;         ;
+; ARDUINO_IO[0]                                                       ;                   ;         ;
+; ARDUINO_IO[1]                                                       ;                   ;         ;
+; ARDUINO_IO[2]                                                       ;                   ;         ;
+; ARDUINO_IO[3]                                                       ;                   ;         ;
+; ARDUINO_IO[4]                                                       ;                   ;         ;
+; ARDUINO_IO[5]                                                       ;                   ;         ;
+; ARDUINO_IO[6]                                                       ;                   ;         ;
+; ARDUINO_IO[7]                                                       ;                   ;         ;
+; ARDUINO_IO[8]                                                       ;                   ;         ;
+; ARDUINO_IO[9]                                                       ;                   ;         ;
+; ARDUINO_IO[10]                                                      ;                   ;         ;
+; ARDUINO_IO[11]                                                      ;                   ;         ;
+; ARDUINO_IO[12]                                                      ;                   ;         ;
+; ARDUINO_IO[13]                                                      ;                   ;         ;
+; ARDUINO_IO[14]                                                      ;                   ;         ;
+; ARDUINO_IO[15]                                                      ;                   ;         ;
+; ARDUINO_RESET_N                                                     ;                   ;         ;
+; GPIO_1GPIO[9]                                                       ;                   ;         ;
+; GPIO_1GPIO[10]                                                      ;                   ;         ;
+; GPIO_1GPIO[11]                                                      ;                   ;         ;
+; GPIO_1GPIO[12]                                                      ;                   ;         ;
+; GPIO_1GPIO[13]                                                      ;                   ;         ;
+; GPIO_1GPIO[14]                                                      ;                   ;         ;
+; GPIO_1GPIO[15]                                                      ;                   ;         ;
+; GPIO_1GPIO[34]                                                      ;                   ;         ;
+; GPIO_1GPIO[35]                                                      ;                   ;         ;
+; GPIO_0GPIO[0]                                                       ;                   ;         ;
+;      - DeBounce1:DB3_MA|DFF1                                        ; 1                 ; 0       ;
+; GPIO_0GPIO[1]                                                       ;                   ;         ;
+;      - DeBounce1:DB3_MB|DFF1                                        ; 0                 ; 0       ;
+; GPIO_0GPIO[2]                                                       ;                   ;         ;
+;      - DeBounce1:DB2_MA|DFF1                                        ; 1                 ; 0       ;
+; GPIO_0GPIO[3]                                                       ;                   ;         ;
+;      - DeBounce1:DB2_MB|DFF1                                        ; 0                 ; 0       ;
+; GPIO_0GPIO[4]                                                       ;                   ;         ;
+;      - DeBounce1:DB1_MA|DFF1                                        ; 0                 ; 0       ;
+; GPIO_0GPIO[5]                                                       ;                   ;         ;
+;      - DeBounce1:DB1_MB|DFF1                                        ; 0                 ; 0       ;
+; GPIO_0GPIO[6]                                                       ;                   ;         ;
+;      - DeBounce1:DB4_MA|DFF1                                        ; 0                 ; 0       ;
+; GPIO_0GPIO[7]                                                       ;                   ;         ;
+;      - DeBounce1:DB4_MB|DFF1                                        ; 1                 ; 0       ;
+; GPIO_0GPIO[8]                                                       ;                   ;         ;
+;      - DeBounce1:DB5_MA|DFF1                                        ; 0                 ; 0       ;
+; GPIO_0GPIO[9]                                                       ;                   ;         ;
+;      - DeBounce1:DB5_MB|DFF1                                        ; 1                 ; 0       ;
+; GPIO_0GPIO[10]                                                      ;                   ;         ;
+;      - DeBounce1:DB6_MA|DFF1                                        ; 1                 ; 0       ;
+; GPIO_0GPIO[11]                                                      ;                   ;         ;
+;      - DeBounce1:DB6_MB|DFF1                                        ; 0                 ; 0       ;
+; GPIO_0GPIO[12]                                                      ;                   ;         ;
+; GPIO_0GPIO[13]                                                      ;                   ;         ;
+; GPIO_0GPIO[14]                                                      ;                   ;         ;
+; GPIO_0GPIO[15]                                                      ;                   ;         ;
+; GPIO_0GPIO[16]                                                      ;                   ;         ;
+; GPIO_0GPIO[17]                                                      ;                   ;         ;
+; GPIO_0GPIO[18]                                                      ;                   ;         ;
+; GPIO_0GPIO[19]                                                      ;                   ;         ;
+; GPIO_0GPIO[20]                                                      ;                   ;         ;
+; GPIO_0GPIO[21]                                                      ;                   ;         ;
+; GPIO_0GPIO[22]                                                      ;                   ;         ;
+; GPIO_0GPIO[23]                                                      ;                   ;         ;
+; GPIO_0GPIO[24]                                                      ;                   ;         ;
+; GPIO_0GPIO[25]                                                      ;                   ;         ;
+; GPIO_0GPIO[26]                                                      ;                   ;         ;
+; GPIO_0GPIO[27]                                                      ;                   ;         ;
+; GPIO_0GPIO[28]                                                      ;                   ;         ;
+; GPIO_0GPIO[29]                                                      ;                   ;         ;
+; GPIO_0GPIO[30]                                                      ;                   ;         ;
+; GPIO_0GPIO[31]                                                      ;                   ;         ;
+; GPIO_0GPIO[32]                                                      ;                   ;         ;
+; GPIO_0GPIO[33]                                                      ;                   ;         ;
+; GPIO_0GPIO[34]                                                      ;                   ;         ;
+; GPIO_0GPIO[35]                                                      ;                   ;         ;
+; GPIO_1GPIO[0]                                                       ;                   ;         ;
+;      - mux:mux1|out~0                                               ; 1                 ; 0       ;
+;      - uart:uartModule|receiver:uart_rx|always0~1                   ; 1                 ; 0       ;
+; GPIO_1GPIO[1]                                                       ;                   ;         ;
+;      - mux:mux1|out~0                                               ; 0                 ; 0       ;
+;      - uart:uartModule|receiver:uart_rx|always0~1                   ; 0                 ; 0       ;
+; GPIO_1GPIO[2]                                                       ;                   ;         ;
+;      - mux:mux1|out~0                                               ; 0                 ; 0       ;
+;      - uart:uartModule|receiver:uart_rx|always0~1                   ; 0                 ; 0       ;
+; GPIO_1GPIO[3]                                                       ;                   ;         ;
+; GPIO_1GPIO[4]                                                       ;                   ;         ;
+; GPIO_1GPIO[5]                                                       ;                   ;         ;
+; GPIO_1GPIO[6]                                                       ;                   ;         ;
+; GPIO_1GPIO[7]                                                       ;                   ;         ;
+; GPIO_1GPIO[8]                                                       ;                   ;         ;
+; GPIO_1GPIO[16]                                                      ;                   ;         ;
+; GPIO_1GPIO[17]                                                      ;                   ;         ;
+; GPIO_1GPIO[18]                                                      ;                   ;         ;
+; GPIO_1GPIO[19]                                                      ;                   ;         ;
+; GPIO_1GPIO[20]                                                      ;                   ;         ;
+; GPIO_1GPIO[21]                                                      ;                   ;         ;
+; GPIO_1GPIO[22]                                                      ;                   ;         ;
+; GPIO_1GPIO[23]                                                      ;                   ;         ;
+; GPIO_1GPIO[24]                                                      ;                   ;         ;
+; GPIO_1GPIO[25]                                                      ;                   ;         ;
+; GPIO_1GPIO[26]                                                      ;                   ;         ;
+; GPIO_1GPIO[27]                                                      ;                   ;         ;
+; GPIO_1GPIO[28]                                                      ;                   ;         ;
+; GPIO_1GPIO[29]                                                      ;                   ;         ;
+; GPIO_1GPIO[30]                                                      ;                   ;         ;
+; GPIO_1GPIO[31]                                                      ;                   ;         ;
+; GPIO_1GPIO[32]                                                      ;                   ;         ;
+; GPIO_1GPIO[33]                                                      ;                   ;         ;
+; FPGA_CLK1_50                                                        ;                   ;         ;
+;      - ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual          ; 1                 ; 0       ;
+;      - ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg     ; 1                 ; 0       ;
+;      - Prescaller:Prescaller5ms|salidaActual                        ; 1                 ; 0       ;
+; KEY[0]                                                              ;                   ;         ;
+;      - DeBounce1:DB6_MA|q_reg[4]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MA|q_reg[3]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MA|q_reg[4]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MA|q_reg[5]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MA|q_reg[6]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MA|DFF1                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MB|q_reg[0]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MB|q_reg[1]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MB|q_reg[2]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MB|q_reg[3]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MB|q_reg[4]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MB|q_reg[5]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MB|q_reg[6]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MB|DFF1                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MA|q_reg[0]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MA|q_reg[1]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MA|q_reg[2]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MA|q_reg[3]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MB|q_reg[6]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MA|q_reg[5]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MB|q_reg[1]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MA|q_reg[3]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MA|q_reg[2]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MA|q_reg[1]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MA|q_reg[0]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MB|DFF1                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MB|q_reg[6]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MB|q_reg[5]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MB|q_reg[4]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MB|q_reg[0]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MA|q_reg[2]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MB|q_reg[2]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MB|q_reg[3]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MB|q_reg[4]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MB|q_reg[5]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MB|q_reg[6]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MB|DFF1                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MA|q_reg[0]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MA|q_reg[1]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MB|DFF1                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MA|q_reg[1]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MA|q_reg[2]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MA|q_reg[3]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MA|q_reg[4]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MA|q_reg[5]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MA|q_reg[6]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MB|q_reg[0]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MB|q_reg[1]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MB|q_reg[2]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MB|q_reg[3]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MB|q_reg[4]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MB|q_reg[5]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MB|q_reg[6]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MA|q_reg[0]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MA|q_reg[0]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MA|q_reg[1]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MA|q_reg[2]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MA|q_reg[3]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MA|q_reg[4]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MA|q_reg[5]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MA|q_reg[6]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MA|DFF1                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MB|q_reg[0]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MB|q_reg[1]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MB|q_reg[2]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MB|q_reg[3]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MA|q_reg[3]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MA|DFF1                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MB|q_reg[0]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MB|q_reg[1]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MB|q_reg[2]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MB|q_reg[3]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MB|q_reg[4]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MB|q_reg[5]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MA|DFF1                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MB|DFF1                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MA|q_reg[0]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MA|q_reg[1]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MA|q_reg[2]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MA|q_reg[6]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MA|q_reg[4]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MA|q_reg[5]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MA|q_reg[6]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MA|DFF1                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MB|q_reg[0]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MB|q_reg[1]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MB|q_reg[2]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MB|q_reg[3]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MB|q_reg[4]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MB|q_reg[5]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MB|q_reg[6]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MB|DFF1                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MA|q_reg[7]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MB|DFF2                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MA|q_reg[7]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MA|DFF2                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MB|q_reg[7]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MB|DFF2                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MA|q_reg[7]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB2_MA|DFF2                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MB|q_reg[7]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MB|DFF2                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MA|q_reg[7]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MA|DFF2                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB3_MB|q_reg[7]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MA|DFF2                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MA|q_reg[7]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MA|q_reg[5]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MB|DFF2                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MB|q_reg[7]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MA|DFF2                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MA|q_reg[7]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MB|DFF2                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB6_MB|q_reg[7]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB5_MA|DFF2                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MB|q_reg[7]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MA|DFF1                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB4_MB|DFF2                                        ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MA|q_reg[4]                                    ; 0                 ; 0       ;
+;      - DeBounce1:DB1_MA|q_reg[6]                                    ; 0                 ; 0       ;
+;      - moduloPWM:PWM1|contador:contadorSubida|always0~0             ; 0                 ; 0       ;
+;      - Prescaller:Prescaller5ms|contador:pos_edge_counter|always0~0 ; 0                 ; 0       ;
+; ADC_SDO                                                             ;                   ;         ;
+;      - ADC_interface:ADC_MODULE|datosRecibidos[0]~feeder            ; 1                 ; 0       ;
++---------------------------------------------------------------------+-------------------+---------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -2374,10 +2374,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|Decoder0~7                                                                        ; MLABCELL_X25_Y48_N0  ; 12      ; Clock enable            ; no     ; --                   ; --               ; --                        ;
 ; ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|Decoder0~8                                                                        ; MLABCELL_X25_Y48_N15 ; 12      ; Clock enable            ; no     ; --                   ; --               ; --                        ;
 ; ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|Decoder0~9                                                                        ; MLABCELL_X25_Y48_N33 ; 12      ; Clock enable            ; no     ; --                   ; --               ; --                        ;
-; ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida|always0~0                                                     ; LABCELL_X28_Y53_N24  ; 34      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
+; ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter|always0~0                                                   ; LABCELL_X28_Y53_N24  ; 34      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
 ; ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual                                                                          ; FF_X17_Y46_N35       ; 37      ; Clock                   ; no     ; --                   ; --               ; --                        ;
 ; ADC_interface:ADC_MODULE|contador:contadorSubida|always0~0                                                                   ; LABCELL_X30_Y51_N0   ; 32      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
-; ADC_interface:ADC_MODULE|contador:contadorSubida|salida                                                                      ; FF_X25_Y49_N47       ; 20      ; Clock                   ; no     ; --                   ; --               ; --                        ;
+; ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg                                                                     ; FF_X25_Y49_N47       ; 20      ; Clock                   ; no     ; --                   ; --               ; --                        ;
 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_angulo1|Binary_to_BCD:Bin_BCD|Equal0~1                      ; LABCELL_X28_Y37_N30  ; 10      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_angulo1|Binary_to_BCD:Bin_BCD|r_BCD[10]~2                   ; MLABCELL_X25_Y37_N54 ; 3       ; Clock enable            ; no     ; --                   ; --               ; --                        ;
 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_angulo1|Binary_to_BCD:Bin_BCD|r_BCD[12]~0                   ; LABCELL_X28_Y39_N18  ; 6       ; Clock enable            ; no     ; --                   ; --               ; --                        ;
@@ -2484,7 +2484,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; PID_control:PID_control4|Equal0~2                                                                                            ; LABCELL_X10_Y10_N57  ; 46      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
 ; PID_control:PID_control5|Equal0~2                                                                                            ; MLABCELL_X19_Y29_N24 ; 46      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
 ; PID_control:PID_control6|Equal0~2                                                                                            ; LABCELL_X18_Y39_N57  ; 46      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
-; Prescaller:Prescaller5ms|contador:contadorSubida|always0~0                                                                   ; LABCELL_X30_Y20_N24  ; 28      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
+; Prescaller:Prescaller5ms|contador:pos_edge_counter|always0~0                                                                 ; LABCELL_X30_Y20_N24  ; 28      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
 ; Prescaller:Prescaller5ms|salidaActual                                                                                        ; FF_X17_Y15_N56       ; 589     ; Clock                   ; no     ; --                   ; --               ; --                        ;
 ; RPM:RPM1|Mult0~666                                                                                                           ; DSP_X34_Y13_N0       ; 51      ; Sync. load              ; no     ; --                   ; --               ; --                        ;
 ; RPM:RPM2|Mult0~666                                                                                                           ; DSP_X16_Y19_N0       ; 51      ; Sync. load              ; no     ; --                   ; --               ; --                        ;
@@ -2866,128 +2866,128 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------+--------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Estimated Delay Added for Hold Timing Summary                                                                                    ;
-+----------------------------------------------------------------------+---------------------------------------+-------------------+
-; Source Clock(s)                                                      ; Destination Clock(s)                  ; Delay Added in ns ;
-+----------------------------------------------------------------------+---------------------------------------+-------------------+
-; FPGA_CLK1_50                                                         ; FPGA_CLK1_50                          ; 671.4             ;
-; ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual                  ; FPGA_CLK1_50                          ; 410.7             ;
-; Prescaller:Prescaller5ms|salidaActual                                ; FPGA_CLK1_50                          ; 226.7             ;
-; Prescaller:Prescaller5ms|salidaActual                                ; Prescaller:Prescaller5ms|salidaActual ; 97.7              ;
-; FPGA_CLK1_50,ADC_interface:ADC_MODULE|contador:contadorSubida|salida ; FPGA_CLK1_50                          ; 85.1              ;
-; ADC_interface:ADC_MODULE|contador:contadorSubida|salida              ; FPGA_CLK1_50                          ; 33.7              ;
-+----------------------------------------------------------------------+---------------------------------------+-------------------+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Summary                                                                                     ;
++-----------------------------------------------------------------------+---------------------------------------+-------------------+
+; Source Clock(s)                                                       ; Destination Clock(s)                  ; Delay Added in ns ;
++-----------------------------------------------------------------------+---------------------------------------+-------------------+
+; FPGA_CLK1_50                                                          ; FPGA_CLK1_50                          ; 671.4             ;
+; ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual                   ; FPGA_CLK1_50                          ; 410.7             ;
+; Prescaller:Prescaller5ms|salidaActual                                 ; FPGA_CLK1_50                          ; 226.7             ;
+; Prescaller:Prescaller5ms|salidaActual                                 ; Prescaller:Prescaller5ms|salidaActual ; 97.7              ;
+; FPGA_CLK1_50,ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg ; FPGA_CLK1_50                          ; 85.1              ;
+; ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg              ; FPGA_CLK1_50                          ; 33.7              ;
++-----------------------------------------------------------------------+---------------------------------------+-------------------+
 Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
 This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Estimated Delay Added for Hold Timing Details                                                                                                                                                        ;
-+-----------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+-------------------+
-; Source Register                                                       ; Destination Register                                                                                     ; Delay Added in ns ;
-+-----------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+-------------------+
-; ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual                   ; ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual                                                      ; 4.358             ;
-; ADC_interface:ADC_MODULE|contador:contadorSubida|salida               ; ADC_interface:ADC_MODULE|estado_actual.ESTADO_2                                                          ; 4.065             ;
-; ADC_interface:ADC_MODULE|datosRecibidos[2]                            ; ADC_interface:ADC_MODULE|CH2[2]                                                                          ; 3.195             ;
-; ADC_interface:ADC_MODULE|datosRecibidos[9]                            ; ADC_interface:ADC_MODULE|CH2[9]                                                                          ; 3.195             ;
-; ADC_interface:ADC_MODULE|datosRecibidos[7]                            ; ADC_interface:ADC_MODULE|CH7[7]                                                                          ; 3.194             ;
-; ADC_interface:ADC_MODULE|datosRecibidos[11]                           ; ADC_interface:ADC_MODULE|CH2[11]                                                                         ; 3.189             ;
-; ADC_interface:ADC_MODULE|datosRecibidos[3]                            ; ADC_interface:ADC_MODULE|CH2[3]                                                                          ; 3.182             ;
-; ADC_interface:ADC_MODULE|datosRecibidos[4]                            ; ADC_interface:ADC_MODULE|CH2[4]                                                                          ; 3.182             ;
-; ADC_interface:ADC_MODULE|datosRecibidos[8]                            ; ADC_interface:ADC_MODULE|CH7[8]                                                                          ; 3.181             ;
-; ADC_interface:ADC_MODULE|datosRecibidos[10]                           ; ADC_interface:ADC_MODULE|CH2[10]                                                                         ; 2.946             ;
-; ADC_interface:ADC_MODULE|datosRecibidos[6]                            ; ADC_interface:ADC_MODULE|CH9[6]                                                                          ; 2.930             ;
-; ADC_interface:ADC_MODULE|datosRecibidos[5]                            ; ADC_interface:ADC_MODULE|CH1[5]                                                                          ; 2.901             ;
-; ADC_interface:ADC_MODULE|datosRecibidos[0]                            ; ADC_interface:ADC_MODULE|CH0[0]                                                                          ; 2.796             ;
-; ADC_interface:ADC_MODULE|datosRecibidos[1]                            ; ADC_interface:ADC_MODULE|CH5[1]                                                                          ; 2.736             ;
-; ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|estado_actual[3]           ; ADC_interface:ADC_MODULE|CH11[8]                                                                         ; 2.316             ;
-; ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|estado_actual[2]           ; ADC_interface:ADC_MODULE|CH11[8]                                                                         ; 2.310             ;
-; ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|estado_actual[0]           ; ADC_interface:ADC_MODULE|CH6[8]                                                                          ; 2.279             ;
-; ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|estado_actual[1]           ; ADC_interface:ADC_MODULE|CH5[3]                                                                          ; 2.248             ;
-; ADC_interface:ADC_MODULE|Prescaller:P1|contador:contadorSubida|salida ; ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual                                                      ; 2.179             ;
-; RPM:RPM4|RPM_Medidos[12]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[12] ; 1.556             ;
-; RPM:RPM4|RPM_Medidos[2]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[2]  ; 1.550             ;
-; RPM:RPM4|RPM_Medidos[9]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[9]  ; 1.545             ;
-; RPM:RPM4|RPM_Medidos[13]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[13] ; 1.544             ;
-; RPM:RPM4|RPM_Medidos[10]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[10] ; 1.539             ;
-; RPM:RPM4|RPM_Medidos[3]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[3]  ; 1.539             ;
-; RPM:RPM4|RPM_Medidos[1]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.531             ;
-; RPM:RPM4|RPM_Medidos[14]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[14] ; 1.528             ;
-; RPM:RPM4|RPM_Medidos[11]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[11] ; 1.527             ;
-; RPM:RPM4|RPM_Medidos[6]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[6]  ; 1.520             ;
-; RPM:RPM4|RPM_Medidos[7]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[7]  ; 1.515             ;
-; RPM:RPM4|RPM_Medidos[15]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[15] ; 1.512             ;
-; RPM:RPM4|RPM_Medidos[5]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[5]  ; 1.496             ;
-; RPM:RPM4|RPM_Medidos[4]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[4]  ; 1.496             ;
-; RPM:RPM4|RPM_Medidos[8]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.493             ;
-; RPM:RPM5|RPM_Medidos[1]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.419             ;
-; RPM:RPM5|RPM_Medidos[2]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[2]  ; 1.404             ;
-; RPM:RPM1|RPM_Medidos[2]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[2]  ; 1.400             ;
-; RPM:RPM5|RPM_Medidos[6]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[6]  ; 1.394             ;
-; RPM:RPM1|RPM_Medidos[3]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[3]  ; 1.390             ;
-; RPM:RPM5|RPM_Medidos[4]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[4]  ; 1.380             ;
-; RPM:RPM1|RPM_Medidos[11]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[11] ; 1.378             ;
-; RPM:RPM5|RPM_Medidos[3]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[3]  ; 1.370             ;
-; RPM:RPM5|RPM_Medidos[11]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[11] ; 1.362             ;
-; RPM:RPM5|RPM_Medidos[10]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[10] ; 1.350             ;
-; RPM:RPM1|RPM_Medidos[14]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[14] ; 1.344             ;
-; Prescaller:Prescaller5ms|salidaActual                                 ; Prescaller:Prescaller5ms|salidaActual                                                                    ; 1.336             ;
-; RPM:RPM1|RPM_Medidos[12]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[12] ; 1.330             ;
-; RPM:RPM1|RPM_Medidos[5]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[5]  ; 1.318             ;
-; RPM:RPM1|RPM_Medidos[15]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[15] ; 1.312             ;
-; RPM:RPM1|RPM_Medidos[1]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.312             ;
-; RPM:RPM1|RPM_Medidos[6]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[6]  ; 1.311             ;
-; RPM:RPM1|RPM_Medidos[10]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[10] ; 1.305             ;
-; RPM:RPM1|RPM_Medidos[7]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[7]  ; 1.301             ;
-; RPM:RPM5|RPM_Medidos[13]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[13] ; 1.275             ;
-; RPM:RPM5|RPM_Medidos[9]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[9]  ; 1.271             ;
-; RPM:RPM1|RPM_Medidos[4]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[4]  ; 1.265             ;
-; RPM:RPM4|RPM_Medidos[0]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[0]  ; 1.260             ;
-; RPM:RPM1|RPM_Medidos[9]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[9]  ; 1.258             ;
-; RPM:RPM5|RPM_Medidos[14]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[14] ; 1.258             ;
-; RPM:RPM1|RPM_Medidos[13]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[13] ; 1.257             ;
-; RPM:RPM5|RPM_Medidos[7]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[7]  ; 1.252             ;
-; RPM:RPM5|RPM_Medidos[12]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[12] ; 1.247             ;
-; RPM:RPM5|RPM_Medidos[8]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[15] ; 1.242             ;
-; RPM:RPM1|RPM_Medidos[8]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.242             ;
-; RPM:RPM5|RPM_Medidos[15]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[15] ; 1.227             ;
-; RPM:RPM5|RPM_Medidos[5]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[5]  ; 1.215             ;
-; RPM:RPM3|RPM_Medidos[2]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[2]  ; 1.182             ;
-; RPM:RPM3|RPM_Medidos[3]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[3]  ; 1.177             ;
-; RPM:RPM3|RPM_Medidos[7]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[7]  ; 1.175             ;
-; RPM:RPM3|RPM_Medidos[12]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[12] ; 1.168             ;
-; RPM:RPM3|RPM_Medidos[13]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[13] ; 1.161             ;
-; PID_control:PID_control1|Error_Integrativo[19]                        ; PID_control:PID_control1|Error_Integrativo[34]                                                           ; 1.161             ;
-; RPM:RPM3|RPM_Medidos[14]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[14] ; 1.157             ;
-; RPM:RPM3|RPM_Medidos[4]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[4]  ; 1.157             ;
-; RPM:RPM3|RPM_Medidos[1]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.155             ;
-; RPM:RPM3|RPM_Medidos[6]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[6]  ; 1.154             ;
-; RPM:RPM3|RPM_Medidos[5]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[5]  ; 1.147             ;
-; ADC_interface:ADC_MODULE|contador:contadorSubida|conteo[18]           ; ADC_interface:ADC_MODULE|contador:contadorSubida|salida                                                  ; 1.142             ;
-; RPM:RPM3|RPM_Medidos[9]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[9]  ; 1.138             ;
-; RPM:RPM3|RPM_Medidos[11]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[11] ; 1.136             ;
-; RPM:RPM2|RPM_Medidos[9]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[9]  ; 1.134             ;
-; RPM:RPM3|RPM_Medidos[10]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[10] ; 1.127             ;
-; RPM:RPM2|RPM_Medidos[2]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[2]  ; 1.122             ;
-; RPM:RPM2|RPM_Medidos[3]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[3]  ; 1.120             ;
-; RPM:RPM2|RPM_Medidos[4]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[4]  ; 1.115             ;
-; RPM:RPM2|RPM_Medidos[5]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[5]  ; 1.114             ;
-; RPM:RPM3|RPM_Medidos[8]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.111             ;
-; RPM:RPM5|RPM_Medidos[0]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[0]  ; 1.104             ;
-; RPM:RPM2|RPM_Medidos[10]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[10] ; 1.102             ;
-; RPM:RPM2|RPM_Medidos[12]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[12] ; 1.099             ;
-; RPM:RPM2|RPM_Medidos[11]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[11] ; 1.093             ;
-; RPM:RPM2|RPM_Medidos[13]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[13] ; 1.092             ;
-; RPM:RPM2|RPM_Medidos[1]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.082             ;
-; RPM:RPM2|RPM_Medidos[6]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[6]  ; 1.075             ;
-; RPM:RPM2|RPM_Medidos[7]                                               ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[7]  ; 1.073             ;
-; PID_control:PID_control1|Error_Integrativo[18]                        ; PID_control:PID_control1|Error_Integrativo[34]                                                           ; 1.072             ;
-; ADC_interface:ADC_MODULE|contador:contadorSubida|conteo[10]           ; ADC_interface:ADC_MODULE|contador:contadorSubida|salida                                                  ; 1.071             ;
-; RPM:RPM2|RPM_Medidos[14]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[14] ; 1.070             ;
-; RPM:RPM2|RPM_Medidos[15]                                              ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[15] ; 1.066             ;
-; PID_control:PID_control2|COMANDO_PWM[6]                               ; moduloPWM:PWM2|salidaActual                                                                              ; 1.048             ;
-+-----------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+-------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Details                                                                                                                                                           ;
++--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+-------------------+
+; Source Register                                                          ; Destination Register                                                                                     ; Delay Added in ns ;
++--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+-------------------+
+; ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual                      ; ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual                                                      ; 4.358             ;
+; ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg                 ; ADC_interface:ADC_MODULE|estado_actual.ESTADO_2                                                          ; 4.065             ;
+; ADC_interface:ADC_MODULE|datosRecibidos[2]                               ; ADC_interface:ADC_MODULE|CH2[2]                                                                          ; 3.195             ;
+; ADC_interface:ADC_MODULE|datosRecibidos[9]                               ; ADC_interface:ADC_MODULE|CH2[9]                                                                          ; 3.195             ;
+; ADC_interface:ADC_MODULE|datosRecibidos[7]                               ; ADC_interface:ADC_MODULE|CH7[7]                                                                          ; 3.194             ;
+; ADC_interface:ADC_MODULE|datosRecibidos[11]                              ; ADC_interface:ADC_MODULE|CH2[11]                                                                         ; 3.189             ;
+; ADC_interface:ADC_MODULE|datosRecibidos[3]                               ; ADC_interface:ADC_MODULE|CH2[3]                                                                          ; 3.182             ;
+; ADC_interface:ADC_MODULE|datosRecibidos[4]                               ; ADC_interface:ADC_MODULE|CH2[4]                                                                          ; 3.182             ;
+; ADC_interface:ADC_MODULE|datosRecibidos[8]                               ; ADC_interface:ADC_MODULE|CH7[8]                                                                          ; 3.181             ;
+; ADC_interface:ADC_MODULE|datosRecibidos[10]                              ; ADC_interface:ADC_MODULE|CH2[10]                                                                         ; 2.946             ;
+; ADC_interface:ADC_MODULE|datosRecibidos[6]                               ; ADC_interface:ADC_MODULE|CH9[6]                                                                          ; 2.930             ;
+; ADC_interface:ADC_MODULE|datosRecibidos[5]                               ; ADC_interface:ADC_MODULE|CH1[5]                                                                          ; 2.901             ;
+; ADC_interface:ADC_MODULE|datosRecibidos[0]                               ; ADC_interface:ADC_MODULE|CH0[0]                                                                          ; 2.796             ;
+; ADC_interface:ADC_MODULE|datosRecibidos[1]                               ; ADC_interface:ADC_MODULE|CH5[1]                                                                          ; 2.736             ;
+; ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|estado_actual[3]              ; ADC_interface:ADC_MODULE|CH11[8]                                                                         ; 2.316             ;
+; ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|estado_actual[2]              ; ADC_interface:ADC_MODULE|CH11[8]                                                                         ; 2.310             ;
+; ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|estado_actual[0]              ; ADC_interface:ADC_MODULE|CH6[8]                                                                          ; 2.279             ;
+; ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|estado_actual[1]              ; ADC_interface:ADC_MODULE|CH5[3]                                                                          ; 2.248             ;
+; ADC_interface:ADC_MODULE|Prescaller:P1|contador:pos_edge_counter|out_reg ; ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual                                                      ; 2.179             ;
+; RPM:RPM4|RPM_Medidos[12]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[12] ; 1.556             ;
+; RPM:RPM4|RPM_Medidos[2]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[2]  ; 1.550             ;
+; RPM:RPM4|RPM_Medidos[9]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[9]  ; 1.545             ;
+; RPM:RPM4|RPM_Medidos[13]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[13] ; 1.544             ;
+; RPM:RPM4|RPM_Medidos[10]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[10] ; 1.539             ;
+; RPM:RPM4|RPM_Medidos[3]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[3]  ; 1.539             ;
+; RPM:RPM4|RPM_Medidos[1]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.531             ;
+; RPM:RPM4|RPM_Medidos[14]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[14] ; 1.528             ;
+; RPM:RPM4|RPM_Medidos[11]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[11] ; 1.527             ;
+; RPM:RPM4|RPM_Medidos[6]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[6]  ; 1.520             ;
+; RPM:RPM4|RPM_Medidos[7]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[7]  ; 1.515             ;
+; RPM:RPM4|RPM_Medidos[15]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[15] ; 1.512             ;
+; RPM:RPM4|RPM_Medidos[5]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[5]  ; 1.496             ;
+; RPM:RPM4|RPM_Medidos[4]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[4]  ; 1.496             ;
+; RPM:RPM4|RPM_Medidos[8]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.493             ;
+; RPM:RPM5|RPM_Medidos[1]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.419             ;
+; RPM:RPM5|RPM_Medidos[2]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[2]  ; 1.404             ;
+; RPM:RPM1|RPM_Medidos[2]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[2]  ; 1.400             ;
+; RPM:RPM5|RPM_Medidos[6]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[6]  ; 1.394             ;
+; RPM:RPM1|RPM_Medidos[3]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[3]  ; 1.390             ;
+; RPM:RPM5|RPM_Medidos[4]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[4]  ; 1.380             ;
+; RPM:RPM1|RPM_Medidos[11]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[11] ; 1.378             ;
+; RPM:RPM5|RPM_Medidos[3]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[3]  ; 1.370             ;
+; RPM:RPM5|RPM_Medidos[11]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[11] ; 1.362             ;
+; RPM:RPM5|RPM_Medidos[10]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[10] ; 1.350             ;
+; RPM:RPM1|RPM_Medidos[14]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[14] ; 1.344             ;
+; Prescaller:Prescaller5ms|salidaActual                                    ; Prescaller:Prescaller5ms|salidaActual                                                                    ; 1.336             ;
+; RPM:RPM1|RPM_Medidos[12]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[12] ; 1.330             ;
+; RPM:RPM1|RPM_Medidos[5]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[5]  ; 1.318             ;
+; RPM:RPM1|RPM_Medidos[15]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[15] ; 1.312             ;
+; RPM:RPM1|RPM_Medidos[1]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.312             ;
+; RPM:RPM1|RPM_Medidos[6]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[6]  ; 1.311             ;
+; RPM:RPM1|RPM_Medidos[10]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[10] ; 1.305             ;
+; RPM:RPM1|RPM_Medidos[7]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[7]  ; 1.301             ;
+; RPM:RPM5|RPM_Medidos[13]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[13] ; 1.275             ;
+; RPM:RPM5|RPM_Medidos[9]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[9]  ; 1.271             ;
+; RPM:RPM1|RPM_Medidos[4]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[4]  ; 1.265             ;
+; RPM:RPM4|RPM_Medidos[0]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_Binary[0]  ; 1.260             ;
+; RPM:RPM1|RPM_Medidos[9]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[9]  ; 1.258             ;
+; RPM:RPM5|RPM_Medidos[14]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[14] ; 1.258             ;
+; RPM:RPM1|RPM_Medidos[13]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[13] ; 1.257             ;
+; RPM:RPM5|RPM_Medidos[7]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[7]  ; 1.252             ;
+; RPM:RPM5|RPM_Medidos[12]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[12] ; 1.247             ;
+; RPM:RPM5|RPM_Medidos[8]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[15] ; 1.242             ;
+; RPM:RPM1|RPM_Medidos[8]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.242             ;
+; RPM:RPM5|RPM_Medidos[15]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[15] ; 1.227             ;
+; RPM:RPM5|RPM_Medidos[5]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[5]  ; 1.215             ;
+; RPM:RPM3|RPM_Medidos[2]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[2]  ; 1.182             ;
+; RPM:RPM3|RPM_Medidos[3]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[3]  ; 1.177             ;
+; RPM:RPM3|RPM_Medidos[7]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[7]  ; 1.175             ;
+; RPM:RPM3|RPM_Medidos[12]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[12] ; 1.168             ;
+; RPM:RPM3|RPM_Medidos[13]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[13] ; 1.161             ;
+; PID_control:PID_control1|Error_Integrativo[19]                           ; PID_control:PID_control1|Error_Integrativo[34]                                                           ; 1.161             ;
+; RPM:RPM3|RPM_Medidos[14]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[14] ; 1.157             ;
+; RPM:RPM3|RPM_Medidos[4]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[4]  ; 1.157             ;
+; RPM:RPM3|RPM_Medidos[1]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.155             ;
+; RPM:RPM3|RPM_Medidos[6]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[6]  ; 1.154             ;
+; RPM:RPM3|RPM_Medidos[5]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[5]  ; 1.147             ;
+; ADC_interface:ADC_MODULE|contador:contadorSubida|conteo[18]              ; ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg                                                 ; 1.142             ;
+; RPM:RPM3|RPM_Medidos[9]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[9]  ; 1.138             ;
+; RPM:RPM3|RPM_Medidos[11]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[11] ; 1.136             ;
+; RPM:RPM2|RPM_Medidos[9]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[9]  ; 1.134             ;
+; RPM:RPM3|RPM_Medidos[10]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[10] ; 1.127             ;
+; RPM:RPM2|RPM_Medidos[2]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[2]  ; 1.122             ;
+; RPM:RPM2|RPM_Medidos[3]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[3]  ; 1.120             ;
+; RPM:RPM2|RPM_Medidos[4]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[4]  ; 1.115             ;
+; RPM:RPM2|RPM_Medidos[5]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[5]  ; 1.114             ;
+; RPM:RPM3|RPM_Medidos[8]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.111             ;
+; RPM:RPM5|RPM_Medidos[0]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_Binary[0]  ; 1.104             ;
+; RPM:RPM2|RPM_Medidos[10]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[10] ; 1.102             ;
+; RPM:RPM2|RPM_Medidos[12]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[12] ; 1.099             ;
+; RPM:RPM2|RPM_Medidos[11]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[11] ; 1.093             ;
+; RPM:RPM2|RPM_Medidos[13]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[13] ; 1.092             ;
+; RPM:RPM2|RPM_Medidos[1]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[1]  ; 1.082             ;
+; RPM:RPM2|RPM_Medidos[6]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[6]  ; 1.075             ;
+; RPM:RPM2|RPM_Medidos[7]                                                  ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[7]  ; 1.073             ;
+; PID_control:PID_control1|Error_Integrativo[18]                           ; PID_control:PID_control1|Error_Integrativo[34]                                                           ; 1.072             ;
+; ADC_interface:ADC_MODULE|contador:contadorSubida|conteo[10]              ; ADC_interface:ADC_MODULE|contador:contadorSubida|out_reg                                                 ; 1.071             ;
+; RPM:RPM2|RPM_Medidos[14]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[14] ; 1.070             ;
+; RPM:RPM2|RPM_Medidos[15]                                                 ; CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_Binary[15] ; 1.066             ;
+; PID_control:PID_control2|COMANDO_PWM[6]                                  ; moduloPWM:PWM2|salidaActual                                                                              ; 1.048             ;
++--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------+-------------------+
 Note: This table only shows the top 100 path(s) that have the largest delay added for hold.
 
 
@@ -3018,23 +3018,23 @@ Info (176235): Finished register packing
 Info (11798): Fitter preparation operations ending: elapsed time is 00:00:15
 Info (170189): Fitter placement preparation operations beginning
 Info (14951): The Fitter is using Advanced Physical Optimization.
-Info (170190): Fitter placement preparation operations ending: elapsed time is 00:01:42
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:01:26
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:01:16
+Info (170192): Fitter placement operations ending: elapsed time is 00:01:10
 Info (170193): Fitter routing operations beginning
 Info (170089): 1e+03 ns of routing delay (approximately 1.4% of available device routing delay) has been added to meet hold timing. For more information, refer to the Estimated Delay Added for Hold Timing section in the Fitter report.
 Info (170195): Router estimated average interconnect usage is 15% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 20% of the available device resources in the region that extends from location X11_Y24 to location X22_Y36
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:02:45
-Info (11888): Total time spent on timing analysis during the Fitter is 123.96 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:02:40
+Info (11888): Total time spent on timing analysis during the Fitter is 115.56 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:01:05
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:01:08
 Warning (169064): Following 89 pins have no output enable or a GND or VCC output enable - later changes to this connectivity may change fitting results
     Info (169065): Pin ARDUINO_IO[0] has a permanently disabled output enable File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ROBOCOL_FINAL.v Line: 13
     Info (169065): Pin ARDUINO_IO[1] has a permanently disabled output enable File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ROBOCOL_FINAL.v Line: 13
@@ -3127,10 +3127,10 @@ Warning (169064): Following 89 pins have no output enable or a GND or VCC output
     Info (169065): Pin GPIO_1GPIO[33] has a permanently enabled output enable File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ROBOCOL_FINAL.v Line: 25
 Info (144001): Generated suppressed messages file /home/franz/Documents/TESIS/Robocol_HW_SW/ROBOCOL_FINAL.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 2152 megabytes
-    Info: Processing ended: Tue Mar  9 11:36:02 2021
-    Info: Elapsed time: 00:09:01
-    Info: Total CPU time (on all processors): 00:17:29
+    Info: Peak virtual memory: 2144 megabytes
+    Info: Processing ended: Tue Mar  9 12:55:53 2021
+    Info: Elapsed time: 00:08:35
+    Info: Total CPU time (on all processors): 00:16:46
 
 
 +----------------------------+
