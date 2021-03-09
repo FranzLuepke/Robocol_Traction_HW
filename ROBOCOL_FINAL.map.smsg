@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at ControlSDI.v(78): always construct contains both blocking and non-blocking assignments File: /home/franz/Documents/TESIS/Robocol_HW_SW/source_v/ControlSDI.v Line: 78

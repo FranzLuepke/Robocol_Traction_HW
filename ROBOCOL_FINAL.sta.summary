@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'Prescaller:Prescaller5ms|salidaActual'
+Slack : -76.594
+TNS   : -12551.618
+
+Type  : Slow 1100mV 85C Model Setup 'FPGA_CLK1_50'
+Slack : -5.801
+TNS   : -9189.522
+
+Type  : Slow 1100mV 85C Model Setup 'ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual'
+Slack : -2.014
+TNS   : -41.837
+
+Type  : Slow 1100mV 85C Model Setup 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Slack : -1.881
+TNS   : -6.866
+
+Type  : Slow 1100mV 85C Model Hold 'FPGA_CLK1_50'
+Slack : 0.069
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Prescaller:Prescaller5ms|salidaActual'
+Slack : 0.294
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual'
+Slack : 0.632
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Slack : 0.700
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'FPGA_CLK1_50'
+Slack : -2.225
+TNS   : -2045.786
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Prescaller:Prescaller5ms|salidaActual'
+Slack : -0.581
+TNS   : -406.858
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual'
+Slack : -0.394
+TNS   : -22.323
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Slack : -0.394
+TNS   : -2.370
+
+Type  : Slow 1100mV 0C Model Setup 'Prescaller:Prescaller5ms|salidaActual'
+Slack : -79.641
+TNS   : -12987.067
+
+Type  : Slow 1100mV 0C Model Setup 'FPGA_CLK1_50'
+Slack : -5.512
+TNS   : -8699.850
+
+Type  : Slow 1100mV 0C Model Setup 'ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual'
+Slack : -1.982
+TNS   : -40.396
+
+Type  : Slow 1100mV 0C Model Setup 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Slack : -1.832
+TNS   : -6.732
+
+Type  : Slow 1100mV 0C Model Hold 'FPGA_CLK1_50'
+Slack : -0.246
+TNS   : -1.963
+
+Type  : Slow 1100mV 0C Model Hold 'Prescaller:Prescaller5ms|salidaActual'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual'
+Slack : 0.633
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Slack : 0.756
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'FPGA_CLK1_50'
+Slack : -2.225
+TNS   : -1885.216
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Prescaller:Prescaller5ms|salidaActual'
+Slack : -0.504
+TNS   : -397.441
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual'
+Slack : -0.394
+TNS   : -22.286
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Slack : -0.394
+TNS   : -2.200
+
+Type  : Fast 1100mV 85C Model Setup 'Prescaller:Prescaller5ms|salidaActual'
+Slack : -40.373
+TNS   : -6802.298
+
+Type  : Fast 1100mV 85C Model Setup 'FPGA_CLK1_50'
+Slack : -3.450
+TNS   : -4950.581
+
+Type  : Fast 1100mV 85C Model Setup 'ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual'
+Slack : -1.187
+TNS   : -18.021
+
+Type  : Fast 1100mV 85C Model Setup 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Slack : -0.776
+TNS   : -2.683
+
+Type  : Fast 1100mV 85C Model Hold 'FPGA_CLK1_50'
+Slack : -0.018
+TNS   : -0.023
+
+Type  : Fast 1100mV 85C Model Hold 'Prescaller:Prescaller5ms|salidaActual'
+Slack : 0.094
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual'
+Slack : 0.221
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'FPGA_CLK1_50'
+Slack : -1.702
+TNS   : -1411.127
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Prescaller:Prescaller5ms|salidaActual'
+Slack : -0.261
+TNS   : -49.754
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual'
+Slack : -0.101
+TNS   : -1.641
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Slack : 0.039
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'Prescaller:Prescaller5ms|salidaActual'
+Slack : -38.483
+TNS   : -6484.427
+
+Type  : Fast 1100mV 0C Model Setup 'FPGA_CLK1_50'
+Slack : -2.979
+TNS   : -4150.454
+
+Type  : Fast 1100mV 0C Model Setup 'ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual'
+Slack : -1.058
+TNS   : -14.689
+
+Type  : Fast 1100mV 0C Model Setup 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Slack : -0.666
+TNS   : -2.296
+
+Type  : Fast 1100mV 0C Model Hold 'FPGA_CLK1_50'
+Slack : -0.285
+TNS   : -3.475
+
+Type  : Fast 1100mV 0C Model Hold 'Prescaller:Prescaller5ms|salidaActual'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual'
+Slack : 0.205
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'FPGA_CLK1_50'
+Slack : -1.702
+TNS   : -1681.708
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Prescaller:Prescaller5ms|salidaActual'
+Slack : -0.213
+TNS   : -33.271
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|Prescaller:P1|salidaActual'
+Slack : -0.051
+TNS   : -0.715
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ADC_interface:ADC_MODULE|contador:contadorSubida|salida'
+Slack : 0.037
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,244 @@
+
+State Machine - |ROBOCOL_FINAL|ADC_interface:ADC_MODULE|estado_actual
+Name estado_actual.ESTADO_0 estado_actual.ESTADO_2 estado_actual.ESTADO_1 
+estado_actual.ESTADO_0 0 0 0 
+estado_actual.ESTADO_1 1 0 1 
+estado_actual.ESTADO_2 1 1 0 
+
+State Machine - |ROBOCOL_FINAL|ADC_interface:ADC_MODULE|ControlSDI:ctSDI1|estado_actual_SDI
+Name estado_actual_SDI.ESTADO_11 estado_actual_SDI.ESTADO_10 estado_actual_SDI.ESTADO_9 estado_actual_SDI.ESTADO_8 estado_actual_SDI.ESTADO_7 estado_actual_SDI.ESTADO_6 estado_actual_SDI.ESTADO_5 estado_actual_SDI.ESTADO_4 estado_actual_SDI.ESTADO_3 estado_actual_SDI.ESTADO_2 estado_actual_SDI.ESTADO_1 estado_actual_SDI.ESTADO_0 
+estado_actual_SDI.ESTADO_0 0 0 0 0 0 0 0 0 0 0 0 0 
+estado_actual_SDI.ESTADO_1 0 0 0 0 0 0 0 0 0 0 1 1 
+estado_actual_SDI.ESTADO_2 0 0 0 0 0 0 0 0 0 1 0 1 
+estado_actual_SDI.ESTADO_3 0 0 0 0 0 0 0 0 1 0 0 1 
+estado_actual_SDI.ESTADO_4 0 0 0 0 0 0 0 1 0 0 0 1 
+estado_actual_SDI.ESTADO_5 0 0 0 0 0 0 1 0 0 0 0 1 
+estado_actual_SDI.ESTADO_6 0 0 0 0 0 1 0 0 0 0 0 1 
+estado_actual_SDI.ESTADO_7 0 0 0 0 1 0 0 0 0 0 0 1 
+estado_actual_SDI.ESTADO_8 0 0 0 1 0 0 0 0 0 0 0 1 
+estado_actual_SDI.ESTADO_9 0 0 1 0 0 0 0 0 0 0 0 1 
+estado_actual_SDI.ESTADO_10 0 1 0 0 0 0 0 0 0 0 0 1 
+estado_actual_SDI.ESTADO_11 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|Detector_Mensajes_01:detectorEnable|estado_actual
+Name estado_actual.LEER_BYTE estado_actual.ESPERANDO_BYTE estado_actual.LISTO estado_actual.ESPERA 
+estado_actual.ESPERA 0 0 0 0 
+estado_actual.LISTO 0 0 1 1 
+estado_actual.ESPERANDO_BYTE 0 1 0 1 
+estado_actual.LEER_BYTE 1 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|Detector_Mensajes:detectorDerecha|estado_actual
+Name estado_actual.LEER_BYTE estado_actual.ESPERANDO_BYTE estado_actual.LISTO estado_actual.ESPERA 
+estado_actual.ESPERA 0 0 0 0 
+estado_actual.LISTO 0 0 1 1 
+estado_actual.ESPERANDO_BYTE 0 1 0 1 
+estado_actual.LEER_BYTE 1 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|Detector_Mensajes:detectorIzquierda|estado_actual
+Name estado_actual.LEER_BYTE estado_actual.ESPERANDO_BYTE estado_actual.LISTO estado_actual.ESPERA 
+estado_actual.ESPERA 0 0 0 0 
+estado_actual.LISTO 0 0 1 1 
+estado_actual.ESPERANDO_BYTE 0 1 0 1 
+estado_actual.LEER_BYTE 1 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|uart:uartModule|receiver:uart_rx|state
+Name state.RX_STATE_START state.RX_STATE_STOP state.RX_STATE_DATA 
+state.RX_STATE_START 0 0 0 
+state.RX_STATE_DATA 1 0 1 
+state.RX_STATE_STOP 1 1 0 
+
+State Machine - |ROBOCOL_FINAL|uart:uartModule|transmitter:uart_tx|state
+Name state.STATE_STOP state.STATE_DATA state.STATE_START state.STATE_IDLE 
+state.STATE_IDLE 0 0 0 0 
+state.STATE_START 0 0 1 1 
+state.STATE_DATA 0 1 0 1 
+state.STATE_STOP 1 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|SH_REG:SH_REG1|state
+Name state.STATE_AUX state.STATE_2 state.STATE_1 state.STATE_0 
+state.STATE_0 0 0 0 0 
+state.STATE_1 0 0 1 1 
+state.STATE_2 0 1 0 1 
+state.STATE_AUX 1 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|StateMachineTX:StateMach1|St_Register
+Name St_Register.St_Count7 St_Register.St_Count6 St_Register.St_Count5 St_Register.St_Count4 St_Register.St_Count3 St_Register.St_Count2 St_Register.St_Count1 St_Register.St_Count0 
+St_Register.St_Count0 0 0 0 0 0 0 0 0 
+St_Register.St_Count1 0 0 0 0 0 0 1 1 
+St_Register.St_Count2 0 0 0 0 0 1 0 1 
+St_Register.St_Count3 0 0 0 0 1 0 0 1 
+St_Register.St_Count4 0 0 0 1 0 0 0 1 
+St_Register.St_Count5 0 0 1 0 0 0 0 1 
+St_Register.St_Count6 0 1 0 0 0 0 0 1 
+St_Register.St_Count7 1 0 0 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm6|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm5|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm4|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm3|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm2|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_rpm1|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_angulo7|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_angulo6|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_angulo5|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_angulo4|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_angulo3|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_angulo2|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_angulo1|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_corriente6|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_corriente5|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_corriente4|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_corriente3|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_corriente2|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |ROBOCOL_FINAL|CreadorMensajeCompleto:MensajeCompleto1|creacion_mensaje:mensaje_corriente1|Binary_to_BCD:Bin_BCD|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
