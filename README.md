@@ -4,29 +4,24 @@ This repository includes all the modules for the main board of REM-U. Quartus II
 
 ## Getting Started
 
-1. Clone the repository
+1. Clone the repository.
 2. Open the QPF with Quartus II and configure the target board. (DE0 Nano-SoC is pre-configured)
 
 ### Prerequisites
 
-Quartus II and a FPGA
-
+- Quartus II.
+- SoC EDS.
+- DE0 Nano SoC board. (or equivalent board with Cyclone V)
 
 ## Built With
 
 * [Quartus II Lite](https://www.intel.com/content/www/us/en/programmable/downloads/download-center.html) - Intel FPGAs and Programmable Devices
 * [Altera ModelSim](https://www.intel.la/content/www/xl/es/software/programmable/quartus-prime/model-sim.html) - Simulation Software by Intel
 
-
-## Versioning
-
-All versions available in [this repository](https://github.com/robocol-rem-u/REM-U_Control_Verilog). 
-
 ## Authors
 
 * **Oscar Díaz Caballero** - *Initial work* - [alegis277](https://github.com/alegis277)
-
-See also the list of [contributors](https://github.com/robocol-rem-u/REM-U_Control_Verilog/graphs/contributors) who participated in this project.
+* **Franz Kevin Luepke** - *Hardware modifications and software*
 
 ## License
 
